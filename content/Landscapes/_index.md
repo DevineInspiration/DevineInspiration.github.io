@@ -2,7 +2,7 @@
 title: "Landscapes"
 date: 2023-11-19T17:13:23+02:00
 weight: 0
-albumthumb: "original_f26e1b2d-362e-4204-a183-368de1c89091_IMG_20220707_235929.jpg"
+albumthumb: "Landscapes/original_f26e1b2d-362e-4204-a183-368de1c89091_IMG_20220707_235929.jpg"
 draft: false
 ## Optional additional meta info for resources list
 #  alt: Image alternative and screen-reader text
