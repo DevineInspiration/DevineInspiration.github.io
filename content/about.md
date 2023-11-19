@@ -1,6 +1,6 @@
 ---
 images:
-- /images/about.png
+- /images/36b0558977e905dd2ab607a987092b51.gif
 title: about
 url: about
 hideTitle: true
@@ -10,7 +10,7 @@ hideDate: true
 
 <div align="center">
 	<p>
-        Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel.
+        Welcome to my photography portfolio page! Please dont hesitate to contact me with the links provided
 	</p>
 	<p>
 		This is demo site for <strong>Eternity</strong> theme. All images are taken from Unsplash.
