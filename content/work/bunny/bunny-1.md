@@ -2,7 +2,7 @@
 weight: 0
 images:
 - /animals/IMG_20190824_104826.jpg
-title: Zebra
+title: bunny 1
 date: 2022-07-23
 tags:
 - archive # all posts
