@@ -1,7 +1,7 @@
 ---
 weight: 0
 images:
-- https://github.com/DevineInspiration/DevineInspiration.github.io/blob/f315490277ac952b73fa4fe9b9a0f55a90132c39/assets/landscapes/DSC_0254.png?raw=true
+- /animals/IMG_20190824_104826.jpg
 title: bunny 1
 date: 2022-07-23
 tags:
