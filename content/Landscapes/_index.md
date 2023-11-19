@@ -2,20 +2,20 @@
 title: "Landscapes"
 date: 2023-11-19T17:13:23+02:00
 weight: 0
-albumthumb: "landscapes/original_f26e1b2d-362e-4204-a183-368de1c89091_IMG_20220707_235929.jpg"
+albumthumb: "landscapes2/original_f26e1b2d-362e-4204-a183-368de1c89091_IMG_20220707_235929.jpg"
 draft: false
 ## Optional additional meta info for resources list
 #  alt: Image alternative and screen-reader text
 #  phototitle: A title for the photo
 #  description: A sub-title or description for the photo
 resources:
-- src: "landscapes/DSC_0254.png"
+- src: "landscapes2/DSC_0254.png"
   phototitle: "Monpellier"
   description: "Meow"
-- src: "landscapes/IMG_20180412_144733-01.jpeg"
+- src: "landscapes2/IMG_20180412_144733-01.jpeg"
   phototitle: "Cedar Creek Falls"
   description: "Wow"
-- src: "landscapes/IMG_20190819_141339.jpg"
+- src: "landscapes2/IMG_20190819_141339.jpg"
   phototitle: "South Africa"
   description: "7 Apostles"
 ---
