@@ -9,6 +9,7 @@ tags:
 - work
 - architecture
 - Montpellier 2023
+- people
 - silhouette
 ---
 
