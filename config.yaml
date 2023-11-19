@@ -2,6 +2,7 @@ baseURL: https://devineinspiration.github.io # todo: change site url.
 title: Portfolio Site # todo: change site name.
 defaultContentLanguage: 'en'
 theme: eternity
+body_classes = "avenir bg-near-white"
 googleAnalytics: '' # todo: set your analytics id.
 
 params:
