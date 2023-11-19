@@ -1,9 +1,9 @@
 ---
-weight: 0
+weight: 5
 images:
 - /animals/IMG_20190824_104826.jpg
 title: Zebra
-date: 2022-07-23
+date: 2019-08-24
 tags:
 - archive # all posts
 - work
@@ -16,9 +16,7 @@ tags:
 
 You can use **Markdown** format to write **your story**.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolorem, laborum impedit doloremque ducimus repellat sapiente aut qui quae provident, cum vitae atque eius earum labore. Quae quod rem aliquid! 
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolorem, laborum impedit doloremque ducimus repellat sapiente aut qui quae provident, cum vitae atque eius earum labore. Quae quod rem aliquid!
+Taken using a Google Pixel 2 through a pair of Binoculars, Addo Elephant National Park
 
 ### Subtitle
 
