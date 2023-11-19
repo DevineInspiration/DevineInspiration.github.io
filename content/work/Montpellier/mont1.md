@@ -8,7 +8,7 @@ tags:
 - archive # all posts
 - work
 - architecture
-- Montpellier 2023
+- Montpellier-2023
 - people
 - silhouette
 ---
