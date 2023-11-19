@@ -2,12 +2,13 @@
 weight: 0
 images:
 - /animals/IMG_20190824_104826.jpg
-title: bunny 1
+title: Zebra
 date: 2022-07-23
 tags:
 - archive # all posts
 - work
-- bunny
+- zebra
+- South Africa 2019
 - nature
 ---
 
