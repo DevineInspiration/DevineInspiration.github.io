@@ -9,13 +9,13 @@ draft: false
 #  phototitle: A title for the photo
 #  description: A sub-title or description for the photo
 resources:
-- src: "DSC_0254.png"
+- src: "Landscapes/DSC_0254.png"
   phototitle: "Monpellier"
   description: "Meow"
-- src: "IMG_20180412_144733-01.jpeg"
+- src: "Landscapes/IMG_20180412_144733-01.jpeg"
   phototitle: "Cedar Creek Falls"
   description: "Wow"
-- src: "IMG_20190819_141339.jpg"
+- src: "Landscapes/IMG_20190819_141339.jpg"
   phototitle: "South Africa"
   description: "7 Apostles"
 ---
