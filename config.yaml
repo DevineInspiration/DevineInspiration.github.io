@@ -5,11 +5,11 @@ theme: eternity
 googleAnalytics: '' # todo: set your analytics id.
 
 params:
-  image: /images/banner.png
+  image: /images/36b0558977e905dd2ab607a987092b51.gif
   logo: logo.png # todo: add your custom logo to static/
-  subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
+  subtitle: Welcome to my photography portfolio page! Please dont hesitate to contact me with the links provided # todo: change default subtitle for your website.
   copyright: All rights reserved. # todo: set your copyright type.
-  author: Lovely Author # todo: set your full name.
+  author: Rachel Devine # todo: set your full name.
   dontShowSource: false # please, do not do this :)
   portfolio:
     columns:
@@ -25,15 +25,14 @@ params:
   socials:
     # todo: change these links.
     - icon: 'far fa-envelope fa-lg'
-      url: 'mailto:eternity@bora.sh'
+      url: 'mailto:cattodevine144@gmail.com'
       landing: true
     - icon: 'fab fa-github fa-lg'
-      url: 'https://github.com/boratanrikulu/eternity'
+      url: 'https://github.com/DevineInspiration'
       landing: true
     - icon: 'fab fa-instagram fa-lg'
-      url: 'https://instagram.bora.sh/eternity'
-    - icon: 'fab fa-linkedin-in fa-lg'
-      url: 'https://linkedin.bora.sh/in/eternity'
+      url: 'https://www.instagram.com/kawaiimegumi/'
+      landing: true
   homepage: "/work" # homepage link, mostly same with menu.main[0]
   specialPages:
     - work
