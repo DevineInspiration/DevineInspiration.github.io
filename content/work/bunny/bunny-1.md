@@ -1,7 +1,7 @@
 ---
-weight: 3
+weight: 0
 images:
-- https://source.unsplash.com/random?bunny&22014
+- "assets/landscapes/DSC_0254.png"
 title: bunny 1
 date: 2022-07-23
 tags:
