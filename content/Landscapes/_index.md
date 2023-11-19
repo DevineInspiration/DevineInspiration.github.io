@@ -1,5 +1,5 @@
 ---
-title: "Landscapes"
+title: "landscapes"
 date: 2023-11-19T17:13:23+02:00
 weight: 0
 albumthumb: "landscapes2/original_f26e1b2d-362e-4204-a183-368de1c89091_IMG_20220707_235929.jpg"
