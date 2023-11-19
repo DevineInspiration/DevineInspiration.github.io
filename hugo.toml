@@ -1,0 +1,24 @@
+baseURL = 'https://devineinspiration.github.io/'
+languageCode = 'en-us'
+title = "portfolio page"
+theme = 'autophugo'
+
+[params]
+    # Meta
+    #description = "AutoPhugo - Photo Gallery on Hugo"
+    #keywords = "phugo, hugo, photogallery, photoblog, hugo theme"
+    #msvalidate = ""
+    #googlesiteverification = ""
+    #thumb_width = 480
+    #thumb_quality = 50
+    full_width = 1800
+    #full_quality = 90
+    #column_count = 2
+    #breadcrumb_use_title = false
+    #filename_as_phototitle = false
+    images_downloadable = true
+    images_downloadable_use_orig = true
+    #taxonomies_links = false
+
+    full_resize_method = "none"
+    favicon = "https://avatars.githubusercontent.com/u/151447052?v=4"
