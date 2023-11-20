@@ -2,8 +2,13 @@
 title: work
 url: work
 ---
-Hi there! Please make yourself comfortable
-and check out a collection of my most recent works:
 
-Make sure to check out the other pages for other photos
+<div align="center">
+	<p>
+		Hi! Welcome to my super awesome portfolio site
+	</p>
+	<p>
+		Feel free to contact me with any of the links at the top of the page.
+	</p>
+</div>
 
