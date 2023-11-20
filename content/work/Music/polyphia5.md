@@ -6,7 +6,6 @@ title: Tim Henson 2
 date: 2023-05-10
 tags:
 - archive # all posts
-- work
 - people
 - music
 ---
