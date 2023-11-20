@@ -7,8 +7,8 @@ date: 2023-05-10
 tags:
 - archive # all posts
 - work
-- People
-- Music
+- people
+- music
 ---
 
 Tim Henson of Polyphia under colourful lighting at SGW3 Galvanizers, Glasgow. Taken using a OnePlus 7T Pro.
