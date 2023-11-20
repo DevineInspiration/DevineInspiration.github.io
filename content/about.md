@@ -1,6 +1,6 @@
 ---
 images:
-- /images/banner.png
+
 title: about
 url: about
 hideTitle: true
