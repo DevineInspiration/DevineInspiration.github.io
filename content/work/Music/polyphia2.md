@@ -2,6 +2,7 @@
 weight: 5
 images:
 - /music/20230510_233838_291.jpg
+- /music/20230511_001527_306.jpg
 title: Tim and Scott
 date: 2023-05-10
 tags:
