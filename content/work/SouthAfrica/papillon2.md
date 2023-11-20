@@ -1,8 +1,8 @@
 ---
 weight: 5
 images:
-- /landscapes/IMG_20190903_070049-01.jpg
-- /landscapes/IMG_20190903_065433-02.jpg
+- /animals/IMG_20190903_070049-01.jpg
+- /animals/IMG_20190903_065433-02.jpg
 title: Farm Kitten
 date: 2019-09-03
 tags:
