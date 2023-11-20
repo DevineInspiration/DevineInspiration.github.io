@@ -9,7 +9,7 @@ tags:
 - archive # all posts
 - work
 - architecture
-- Montpellier-2023
+- Montpellier
 - people
 - church
 - sculpture
