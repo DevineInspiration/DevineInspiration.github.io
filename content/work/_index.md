@@ -5,10 +5,12 @@ url: work
 
 <div align="center">
 	<p>
-		Hi! Welcome to my super awesome portfolio site
+		
+		Hi there! Please make yourself comfortable
+		and check out a collection of my most recent works!
 	</p>
 	<p>
-		Feel free to contact me with any of the links at the top of the page.
+		Make sure to check out the other pages for other photos too!
 	</p>
 </div>
 
