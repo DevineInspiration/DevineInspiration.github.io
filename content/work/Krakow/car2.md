@@ -8,7 +8,7 @@ tags:
 - archive # all posts
 - work
 - automotive
-- Krakow-EXPO
+- krakow
 ---
 
 BMW M8 Competition at Krakow EXPO 2022, Taken on Nikon D5100

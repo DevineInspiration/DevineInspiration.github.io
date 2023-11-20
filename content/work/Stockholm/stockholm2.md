@@ -7,7 +7,7 @@ date: 2022-05-26
 tags:
 - archive # all posts
 - work
-- nature
+- architechture
 - Stockholm-2022
 ---
 

@@ -10,7 +10,7 @@ tags:
 - archive # all posts
 - work
 - automotive
-- Krakow-EXPO
+- krakow
 ---
 
 Jack Daniels themed Audi Quattro with Porsche rims at Krakow EXPO 2022, Taken on Nikon D5100

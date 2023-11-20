@@ -8,7 +8,7 @@ tags:
 - archive # all posts
 - work
 - automotive
-- Krakow-EXPO
+- krakow
 ---
 
 Troy Lee Design Subaru WRX STI at Krakow EXPO 2022, Taken on Nikon D5100

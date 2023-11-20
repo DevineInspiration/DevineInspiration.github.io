@@ -9,7 +9,7 @@ tags:
 - archive # all posts
 - work
 - automotive
-- Krakow-EXPO
+- krakow
 ---
 
 Tinted satin black VW Golf R at Krakow EXPO 2022, Taken on Nikon D5100
