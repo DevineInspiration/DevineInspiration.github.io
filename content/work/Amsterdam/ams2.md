@@ -12,5 +12,5 @@ tags:
 - people
 ---
 
-Antony Gormley's Exposure Sculpture in the evening just outside Lelystad in the Netherlands. Taken on OnePlus 7T Pro.
+Antony Gormleys Exposure Sculpture in the evening just outside Lelystad in the Netherlands. Taken on OnePlus 7T Pro.
 
