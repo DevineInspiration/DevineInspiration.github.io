@@ -1,7 +1,7 @@
 ---
 weight: 5
 images:
-- /architecture/IMG_20220526_194155~2.jpg
+- /architecture/IMG_20220526_194155.jpg
 title: Norrström
 date: 2022-05-26
 tags:

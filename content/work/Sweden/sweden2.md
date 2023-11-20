@@ -1,7 +1,7 @@
 ---
 weight: 5
 images:
-- /landscapes/IMG_20220711_230236~2.jpg
+- /landscapes/IMG_20220711_230236.jpg
 title: House lost in the fog
 date: 2022-07-11
 tags:
