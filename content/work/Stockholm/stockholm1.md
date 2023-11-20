@@ -8,7 +8,7 @@ tags:
 - archive # all posts
 - work
 - nature
-- Stockholm-2022
+- stockholm
 ---
 
 Heart in the treeline above a picnic bench in Rosendals Trädgård, Stockholm, Taken on OnePlus 7T Pro

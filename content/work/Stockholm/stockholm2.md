@@ -7,8 +7,8 @@ date: 2022-05-26
 tags:
 - archive # all posts
 - work
-- architechture
-- Stockholm-2022
+- nature
+- stockholm
 ---
 
 Evening sunlight over river Norrström, central Stockholm, Taken on OnePlus 7T Pro
