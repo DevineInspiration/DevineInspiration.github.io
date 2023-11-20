@@ -1,8 +1,8 @@
 ---
 weight: 5
 images:
-- /automotive/DSC_0090.jpg
-- /automotive/DSC_0088.jpg
+- /automotive/DSC_0090.JPG
+- /automotive/DSC_0088.JPG
 title: Orange GT86
 date: 2022-10-10
 tags:
