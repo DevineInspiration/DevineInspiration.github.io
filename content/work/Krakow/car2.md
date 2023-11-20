@@ -1,7 +1,7 @@
 ---
 weight: 5
 images:
-- /automotive/DSC_0751~2.jpg
+- /automotive/DSC_0751.jpg
 title: M8 Comp
 date: 2022-10-10
 tags:
