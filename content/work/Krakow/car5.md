@@ -1,7 +1,7 @@
 ---
 weight: 5
 images:
-- /automotive/DSC_0084~2.jpg
+- /automotive/DSC_0084.jpg
 title: BRZ Interior
 date: 2022-10-10
 tags:
