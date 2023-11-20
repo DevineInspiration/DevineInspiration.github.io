@@ -1,7 +1,7 @@
 ---
 weight: 5
 images:
-- /animals/IMG_20190903_065001-02.jpg
+- /nature/IMG_20190903_065001-02.jpg
 title: Erythrina Tree
 date: 2019-09-03
 tags:
