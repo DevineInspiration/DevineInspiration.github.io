@@ -10,10 +10,12 @@ hideDate: true
 
 <div align="center">
 	<p>
-        Welcome to my photography portfolio page! Please dont hesitate to contact me with the links provided
+        ## Hi! My name is <strong>Rachel Devine</strong>. 
+	I am a computing student from the UK with a passion for photography!
+	
 	</p>
 	<p>
-		My name is <strong>Rachel Devine</strong> I am 22 and from the UK
+	If you have any questions for me please don't hesitate to contact me with the links provided in the navigation bar	
 	</p>
 </div>
 

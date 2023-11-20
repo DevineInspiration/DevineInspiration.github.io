@@ -8,7 +8,7 @@ date: 2023-02-05
 tags:
 - archive # all posts
 - work
-- person
+- people
 - selfportrait
 - silhouette
 ---
