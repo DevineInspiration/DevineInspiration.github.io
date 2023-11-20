@@ -8,9 +8,9 @@ tags:
 - archive # all posts
 - work
 - architecture
-- Montpellier
-- People
-- Hotel
+- montpellier
+- people
+- hotel
 ---
 
 Picturesque hotel nestled the cramped central streets of Montpellier, France. Taken using a Nikon D5100

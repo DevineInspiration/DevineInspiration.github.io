@@ -9,7 +9,7 @@ tags:
 - archive # all posts
 - work
 - architecture
-- Montpellier
+- montpellier
 - people
 - church
 - sculpture

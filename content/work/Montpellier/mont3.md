@@ -8,9 +8,9 @@ tags:
 - archive # all posts
 - work
 - architecture
-- Montpellier
-- Port
-- Water
+- montpellier
+- port
+- water
 ---
 
 Sun setting behind boats in the Port of La Grande-Motte, France. Taken using a Nikon D5100

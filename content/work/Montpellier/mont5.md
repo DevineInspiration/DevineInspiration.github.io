@@ -2,15 +2,15 @@
 weight: 5
 images:
 - /architecture/IMG_20230218_193311.jpg
-- /architecture/DSC_0316-2.jpg
+- /architecture/DSC_0316.jpg
 title: Château d’eau du Peyrou
 date: 2023-02-20
 tags:
 - archive # all posts
 - work
 - architecture
-- Montpellier
-- Water
+- montpellier
+- water
 ---
 
 Château d’eau du Peyrou, a traditional structure sitting upon water in Monpellier, France.

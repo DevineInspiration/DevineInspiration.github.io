@@ -8,7 +8,7 @@ tags:
 - archive # all posts
 - work
 - nature
-- Sweden-2022
+- sweden
 ---
 
 House consumed by thick fog in early hours of the evening near Sollentuna, Sweden. Taken on OnePlus 7T Pro

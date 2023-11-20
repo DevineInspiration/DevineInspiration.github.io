@@ -8,8 +8,8 @@ tags:
 - archive # all posts
 - work
 - architecture
-- Montpellier
-- People
+- montpellier
+- people
 ---
 
 People, tramlines and palm trees leading towards the Montpellier Saint-Roch train station in early evening, France. Taken using a Nikon D5100

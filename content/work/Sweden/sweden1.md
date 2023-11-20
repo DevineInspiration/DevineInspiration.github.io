@@ -8,7 +8,7 @@ tags:
 - archive # all posts
 - work
 - nature
-- Sweden-2022
+- sweden
 - water
 ---
 
