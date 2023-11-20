@@ -1,7 +1,7 @@
 ---
 weight: 5
 images:
-- /nature/IMG_20190903_070049.jpg
+- /nature/IMG_20190903_064424-01.jpg
 title: Erythrina
 date: 2019-09-03
 tags:
