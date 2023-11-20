@@ -1,9 +1,9 @@
 ---
 weight: 5
 images:
-- /landscapes/PXL_20230118_152757981.jpg
+- /architecture/PXL_20230118_152757981.jpg
 title: National Monument of Scotland
-date: 2023-01-18
+date: 2023-01-19
 tags:
 - archive # all posts
 - work
