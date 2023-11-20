@@ -1,7 +1,7 @@
 ---
 weight: 5
 images:
-- /people/20230207_215313_311.jpg
+- /people/IMG_20230206_020953.png
 - /people/20230424_005202_594.jpg
 title: Blue Silhouette
 date: 2023-02-05
