@@ -2,7 +2,7 @@
 weight: 5
 images:
 - /automotive/DSC_0401.jpg
-- /automotive/DSC_0385.jpg
+- /automotive/DSC_0395.jpg
 title: Black Golf R
 date: 2022-10-10
 tags:
