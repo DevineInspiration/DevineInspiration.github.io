@@ -58,8 +58,8 @@ permalinks:
 
 menu:
   main:
-    - name: work
-      url: /work/
+    - name: my work
+      url: /works/
       weight: 1
     - name: people
       url: /tags/people/
@@ -73,6 +73,6 @@ menu:
     - name: archive
       url: /tags/archive/
       weight: 5
-    - name: about
+    - name: about me
       url: /about/
       weight: 6
