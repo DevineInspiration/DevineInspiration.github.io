@@ -67,12 +67,9 @@ menu:
     - name: nature
       url: /tags/nature/
       weight: 3
-    - name: automotive
-      url: /tags/automotive/
-      weight: 4
     - name: archive
       url: /tags/archive/
-      weight: 5
+      weight: 4
     - name: about
       url: /about/
-      weight: 6
+      weight: 5
