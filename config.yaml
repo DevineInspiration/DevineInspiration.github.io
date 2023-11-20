@@ -59,7 +59,7 @@ permalinks:
 menu:
   main:
     - name: my work
-      url: /works/
+      url: /work/
       weight: 1
     - name: people
       url: /tags/people/
