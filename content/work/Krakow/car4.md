@@ -2,7 +2,8 @@
 weight: 5
 images:
 - /automotive/DSC_0614.jpg
-title: WRX Rear
+- /automotive/DSC_0580.jpg
+title: Subaru WRX
 date: 2022-10-10
 tags:
 - archive # all posts

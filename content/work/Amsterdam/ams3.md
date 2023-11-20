@@ -1,8 +1,8 @@
 ---
 weight: 5
 images:
-- /architecture/IMG_20230815_201157.jpg
 - /architecture/PXL_20230815_181553253.jpg
+- /architecture/IMG_20230815_201157.jpg
 title: The Batavia
 date: 2023-08-15
 tags:
