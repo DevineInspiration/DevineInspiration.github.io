@@ -11,5 +11,5 @@ tags:
 - Music
 ---
 
-Through the crowd shot of Tim Henson of Polyphia with person filming in the foreground. Taken using a OnePlus 7T Pro
+Through the crowd shot of Tim Henson of Polyphia with person filming in the foreground. Taken using a OnePlus 7T Pro at SWG3 Galvanizers, Glasgow
 
