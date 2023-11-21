@@ -58,7 +58,7 @@ permalinks:
 
 menu:
   main:
-    - name: my work
+    - name: home
       url: /work/
       weight: 1
     - name: people
