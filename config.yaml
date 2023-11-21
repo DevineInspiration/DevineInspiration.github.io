@@ -64,15 +64,18 @@ menu:
     - name: people
       url: /tags/people/
       weight: 2
+    - name: architecture
+      url: /tags/architecture
+      weight: 3
     - name: nature
       url: /tags/nature/
-      weight: 3
+      weight: 4
     - name: automotive
       url: /tags/automotive
-      weight: 4
+      weight: 5
     - name: archive
       url: /tags/archive/
-      weight: 5
+      weight: 6
     - name: about me
       url: /about/
-      weight: 6
+      weight: 7
