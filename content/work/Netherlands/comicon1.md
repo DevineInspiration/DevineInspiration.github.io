@@ -8,6 +8,7 @@ tags:
 - archive # all posts
 - work
 - people
+- cosplay
 - amsterdam
 ---
 

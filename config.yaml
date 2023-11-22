@@ -37,6 +37,9 @@ params:
   specialPages:
     - work
     - archive
+    - nature
+    - automotive
+    - architecture
   bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
   disableWelcomePageBackground: false # disables the background image on the homepage
   plausible: '' # todo: set your plausible id.
