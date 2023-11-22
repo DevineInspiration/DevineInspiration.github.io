@@ -1,7 +1,7 @@
 ---
 weight: 5
 images:
-- /people/DSC_8032-1.png
+- /people/DSC_8032-1.jpg
 title: Lucy and Rebecca
 date: 2023-11-18
 tags:
