@@ -11,6 +11,6 @@ tags:
 - krakow
 ---
 
-{{< video src="VID" >}}
+{{< video src="/VID.mp4" type="video/mp4" preload="auto" >}}
 
 Wrap Collabo Subaru BRZ Interior at Krakow EXPO 2022, Taken on Nikon D5100
