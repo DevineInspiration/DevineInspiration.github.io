@@ -11,7 +11,7 @@
 	{{ $scratch := newScratch }}
 	{{ $row := dict "videos" (slice $video) }}
 	{{ partial "helpers/getvideo" (dict "scratch" $scratch "row" $row) }}
-	{{ $vids = $videos | append ($scratch.Get "vid") }}
+	{{ $vids = $vids | append ($scratch.Get "vid") }}
 {{ end }}
 
 {{ $includesInfo := false }}
