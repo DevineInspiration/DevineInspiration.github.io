@@ -12,4 +12,4 @@ tags:
 - amsterdam
 ---
 
-Cosplayers of Lucy and Rebecca from Cyberpunk: Edgerunners, seen at Comicon hosted in Utrect. Taken on Nikon D5100
+Cosplayers of Lucy and Rebecca from Cyberpunk: Edgerunners, seen at Comicon hosted in Utrect. Taken on Nikon D7000

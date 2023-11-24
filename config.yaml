@@ -1,7 +1,7 @@
 baseURL: https://devineinspiration.github.io # todo: change site url.
 title: Portfolio Site # todo: change site name.
 defaultContentLanguage: 'en'
-theme: eternity
+theme: ["hugo-video", "eternity"]
 googleAnalytics: '' # todo: set your analytics id.
 
 params:
