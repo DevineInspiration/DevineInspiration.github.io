@@ -52,7 +52,7 @@
 					{{ end }}
 					{{ range $i, $vid := $vids }}
 						<center>
-							<video width="100%" height="{{ (($vid.videoHeight / 100vh)*100) }}vh" preload="auto" muted autoplay loop controls>
+							<video width="100%" height="{{ $vid.videoHeight / 100vh * 100 }}vh" preload="auto" muted autoplay loop controls>
 								<source src="{{ $vid.RelPermalink }}" type="video/mp4"/>
 							</video>
 						</center>
