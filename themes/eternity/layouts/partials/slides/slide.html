@@ -52,8 +52,8 @@
 					{{ end }}
 					{{ range $i, $vid := $vids }}
 						<div {{ if $.ctx.Params.multipleColumn }} class="column" {{ end }}>
-							<video preload="auto" controls>
-								<source src="{{ $vid.RelPermalink }}" type="video/mp4">
+							<video width="60%" height="60%" preload="auto" controls>
+								<source src="{{ $vid.RelPermalink }}" type="video/mp4" muted="true" autoplay="true" loop="true" />
 							</video>
 						</div>
 					{{ end }}
