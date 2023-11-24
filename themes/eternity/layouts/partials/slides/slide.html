@@ -51,13 +51,22 @@
 						</div>
 					{{ end }}
 					{{ range $i, $vid := $vids }}
-						{{ $vidHeight := $vid.videoHeight }}
-						{{ $vidHeightPercentage := ($vidHeight / 100vh) * 100 }}
 						<center>
 							<video width="100%" height="{{ $vidHeightPercentage }}vh" preload="auto" muted autoplay loop controls>
 								<source src="{{ $vid.RelPermalink }}" type="video/mp4"/>
 							</video>
 						</center>
+						<style>
+                            				video {
+                                				height: 70vh !important;
+                                				width: 100% !important;
+                            				}
+                            				@media screen and (max-width: 600px) {
+                                				video {
+                                    					height: 100vh !important;
+                                				}
+                            				}
+                        			</style>
 					{{ end }}
 				</div>
 				{{ if not .ctx.Site.Params.MoveIt }}
