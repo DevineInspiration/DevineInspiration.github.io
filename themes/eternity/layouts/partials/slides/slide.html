@@ -51,11 +51,11 @@
 						</div>
 					{{ end }}
 					{{ range $i, $vid := $vids }}
-						<center>
-							<video width="1920px" height="1080px" preload="auto" controls>
+						<div class=”center”>
+							<video max-width="75%" height="auto" preload="auto" controls>
 								<source src="{{ $vid.RelPermalink }}" type="video/mp4" muted="true" autoplay="true" loop="true" />
 							</video>
-						</center>
+						</div>
 					{{ end }}
 				</div>
 				{{ if not .ctx.Site.Params.MoveIt }}
