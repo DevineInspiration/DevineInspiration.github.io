@@ -1,0 +1,28 @@
+<!--
+    Returns image by getting from locale or remote.
+
+    Example usage;
+        {{/*  $scratch := newScratch */}}
+        {{/*  partial "helpers/get" (dict "scratch" $scratch "row" $row) */}}
+        {{/*  $vid := $scratch.Get "vid" */}}
+
+    Example usage on Post level;
+        videos:
+            - https://bora.sh/logo.png
+            - /videos/logo.png
+    Both videos will be resized. Remote image will be downloaded while building the hugo site.
+ -->
+
+{{ if hasPrefix (index $.row.videos 0) "/" }}
+    {{ $.scratch.Set "vid" (resources.Get (index $.row.videos 0)) }}
+{{ else }}
+    {{ $.scratch.Set "vid" (resources.GetRemote (index $.row.videos 0)) }}
+{{ end }}
+
+{{ if $.row.mainImage }}
+    {{ if hasPrefix (index $.row.videos 0) "/" }}
+        {{ $.scratch.Set "vid" (resources.Get $.row.mainImage) }}
+    {{ else }}
+        {{ $.scratch.Set "vid" (resources.GetRemote $.row.mainImage) }}
+    {{ end }}
+{{ end }}
