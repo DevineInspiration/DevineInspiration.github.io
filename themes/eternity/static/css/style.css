@@ -259,6 +259,12 @@ section .column img {
     max-height: 92vh;
 }
 
+.slide vid {
+    margin-bottom: 10px;
+    width: auto;
+    max-height: 92vh;
+}
+
 .portfolio {
     margin: 10px;
     width: 100%;
