@@ -2,7 +2,7 @@
 weight: 5
 images:
 - /automotive/DSC_0084.jpg
-- {{< video src="/VID.mp4" type="video/mp4" preload="auto" muted="true" autoplay="true" loop="true">}}
+{{< video src="/VID.mp4" type="video/mp4" preload="auto" muted="true" autoplay="true" loop="true">}}:
 title: BRZ Interior
 date: 2022-10-10
 tags:
