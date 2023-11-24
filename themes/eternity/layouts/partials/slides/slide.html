@@ -51,8 +51,10 @@
 						</div>
 					{{ end }}
 					{{ range $i, $vid := $vids }}
+						{{ $vidHeight := $vid.videoHeight }}
+						{{ $vidHeightPercentage := ($vidHeight / 100vh) * 100 }}
 						<center>
-							<video width="100%" height="{{ $vid.videoHeight / 100vh * 100 }}vh" preload="auto" muted autoplay loop controls>
+							<video width="100%" height="{{ $vidHeightPercentage }}vh" preload="auto" muted autoplay loop controls>
 								<source src="{{ $vid.RelPermalink }}" type="video/mp4"/>
 							</video>
 						</center>
