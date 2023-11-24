@@ -2,6 +2,8 @@
 weight: 5
 images:
 - /automotive/DSC_0084.jpg
+videos:
+- /automotive/VID.mp4
 title: BRZ Interior
 date: 2022-10-10
 tags:
@@ -10,8 +12,6 @@ tags:
 - automotive
 - krakow
 ---
-
-{{< video src="/VID.mp4" type="video/mp4" preload="auto" muted="true" autoplay="true" loop="true">}}
 
 
 Wrap Collabo Subaru BRZ Interior at Krakow EXPO 2022, Taken on Nikon D5100
