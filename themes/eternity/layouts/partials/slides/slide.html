@@ -52,7 +52,7 @@
 					{{ end }}
 					{{ range $i, $vid := $vids }}
 						<center>
-							<video max-width="100%" height="auto" preload="auto" muted autoplay controls>
+							<video max-width="100%" height="auto" preload="auto" muted autoplay loop controls>
 								<source src="{{ $vid.RelPermalink }}" type="video/mp4"/>
 							</video>
 						</center>
