@@ -1,7 +1,7 @@
 ---
 weight: 5
 images:
-- /animals/DSC_0477-1.jpg
+- /animals/DSC_0477.jpg
 title: Five Sisters Lion
 date: 2014-02-14
 tags:

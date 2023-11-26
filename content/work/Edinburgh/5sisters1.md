@@ -1,8 +1,8 @@
 ---
 weight: 5
 images:
-- /animals/DSC_0607-2.jpg
-- /animals/DSC_0616-3.jpg
+- /animals/DSC_0607.jpg
+- /animals/DSC_0616.jpg
 title: Otters
 date: 2014-02-14
 tags:

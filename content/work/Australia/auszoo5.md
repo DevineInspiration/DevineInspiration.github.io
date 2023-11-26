@@ -1,7 +1,7 @@
 ---
 weight: 5
 images:
-- /animals/DSC_5164-1.jpg
+- /animals/DSC_5164.jpg
 title: Koala
 date: 2018-04-19
 tags:
