@@ -3,7 +3,7 @@ weight: 5
 images:
 - /architecture/IMG_20210916_180430-5.jpg
 videos:
-- /architecture/VID_20210916_180456_H.264.mp4
+- /architecture/VID2.mp4
 title: Reichstag Building
 date: 2021-09-16
 tags:
