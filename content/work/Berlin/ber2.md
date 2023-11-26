@@ -1,7 +1,7 @@
 ---
 weight: 5
 images:
-- /architecture/IMG_20210916_180430-5.jpg
+- /architecture/IMG_20210916_180430.jpg
 videos:
 - /architecture/VID2.mp4
 title: Reichstag Building

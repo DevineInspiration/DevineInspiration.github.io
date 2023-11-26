@@ -1,7 +1,7 @@
 ---
 weight: 5
 images:
-- /nature/DSC_0286.jpg
+- /nature/DSC_0286.JPG
 title: Nootka Rose
 date: 2014-02-11
 tags:
