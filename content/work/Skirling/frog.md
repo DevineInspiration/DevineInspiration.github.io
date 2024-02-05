@@ -1,8 +1,8 @@
 ---
 weight: 5
 images:
-- /nature/DSC_3896-1.jpg
-- /nature/DSC_3900-1.jpg
+- /animals/DSC_3896.jpg
+- /animals/DSC_3900.jpg
 title: Wild Baby Frog
 date: 2015-03-02
 tags:
