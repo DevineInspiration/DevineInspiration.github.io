@@ -6,10 +6,10 @@ url: blog
 
 <div align="center">
 	<p>
-		Hi there, Please make yourself comfortable and check out a collection of my most recent works	
+		Hi there, welcome to a work in progress part of my page <3	
 	</p>
 	<p>
-		Make sure to check out the other pages for other photos too!
+		Make sure to check out the other pages!
 	</p>
 	<p>
 		Feel free to contact me with any of the links at the top of the page.
