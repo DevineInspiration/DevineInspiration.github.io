@@ -60,7 +60,7 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-          cd blog/
+          cd ./blog/
           hugo \
             --gc \
             --minify \
