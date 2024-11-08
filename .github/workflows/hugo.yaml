@@ -60,7 +60,7 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-        tree -d /
+          tree -d /
 
                       
       - name: Upload artifact
