@@ -57,18 +57,16 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo \
-            -s "photos"
-            -d "photos/public/" \
             --gc \
             --minify \
-            --baseURL "https://devineinspiration.github.io/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
                       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./public
 
- # Deployment job
+  # Deployment job
   deploy:
     environment:
       name: github-pages
