@@ -34,7 +34,6 @@ params:
       url: 'https://www.instagram.com/kawaiimegumi/'
       landing: true
   homepage: "/work" # homepage link, mostly same with menu.main[0]
-  blog: "/blog.html"
   specialPages:
     - work
     - archive
@@ -59,6 +58,7 @@ taxonomies:
 
 permalinks:
   work: ":filename/"
+  blog: "content/blog.html"
 
 menu:
   main:
