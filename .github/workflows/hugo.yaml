@@ -56,9 +56,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo \
-            -s "photos"
-            -d "photos/public/" \
+          hugo -s photos -d photos/public/ \
             --gc \
             --minify \
             --baseURL "https://devineinspiration.github.io/"
@@ -66,7 +64,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./public
+          path: ./photos/public
 
  # Deployment job
   deploy:
