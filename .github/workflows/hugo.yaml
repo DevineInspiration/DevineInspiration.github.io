@@ -61,11 +61,6 @@ jobs:
             --gc \
             --minify \
             --baseURL "https://devineinspiration.github.io/"
-                      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: photos/public/
 
       - name: Deploy photos to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
