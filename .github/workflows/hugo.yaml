@@ -60,11 +60,10 @@ jobs:
           hugo -s photos -d photos/public/ \
             --gc \
             --minify \
-            --baseURL "https://devineinspiration.github.io/"
 
       - name: Deploy photos to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_branch: gh-pages
-          publish_dir: ./public
+          publish_dir: photos/public/
           github_token: ${{ secrets.GITHUB_TOKEN }}
