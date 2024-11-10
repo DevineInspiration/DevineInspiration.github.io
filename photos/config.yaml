@@ -5,7 +5,7 @@ theme: "eternity"
 googleAnalytics: '' # todo: set your analytics id.
 
 params:
-  image: /images/banner.png
+  image: /work/banner.png
   logo: logo.png # todo: add your custom logo to static/
   subtitle: Welcome to my photography portfolio page! Please dont hesitate to contact me with the links provided # todo: change default subtitle for your website.
   copyright: All rights reserved. # todo: set your copyright type.
@@ -33,9 +33,9 @@ params:
     - icon: 'fab fa-instagram fa-lg'
       url: 'https://www.instagram.com/kawaiimegumi/'
       landing: true
-  homepage: "/images" # homepage link, mostly same with menu.main[0]
+  homepage: "/work" # homepage link, mostly same with menu.main[0]
   specialPages:
-    - images
+    - work
     - archive
     - nature
     - automotive
@@ -62,7 +62,7 @@ permalinks:
 menu:
   main:
     - name: home
-      url: /images/
+      url: /work/
       weight: 1
     - name: people
       url: /tags/people/
