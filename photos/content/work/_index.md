@@ -1,5 +1,5 @@
 ---
-title: home
+title: work
 url: work
 ---
 
