@@ -58,11 +58,47 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo --destination public -s photos --gc --minify
-          ls ./photos/public
 
       - name: Deploy photos to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_branch: gh-pages
           publish_dir: photos/public
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+  build2:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.120.2'
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v3
+
+      - name: Install Node.js dependencies
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+
+      - name: Build with Hugo
+        env:
+          # For maximum backward compatibility with Hugo modules
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo --destination public -s blog --gc --minify
+
+      - name: Deploy photos to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_branch: gh-pages
+          publish_dir: blog/public
           github_token: ${{ secrets.GITHUB_TOKEN }}
