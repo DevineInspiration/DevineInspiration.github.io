@@ -1,4 +1,4 @@
-baseURL = "https://devineinspiration.github.io/blog"
+baseURL = "https://devineinspiration.github.io/blog/"
 languageCode = "en-us"
 theme = "hyde"
 title = "My New Hugo Site"

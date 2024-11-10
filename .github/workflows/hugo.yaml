@@ -51,7 +51,7 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      - name: Build with Hugo
+      - name: Build photos with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
@@ -59,14 +59,7 @@ jobs:
         run: |
           hugo --destination public -s photos --gc --minify
 
-      - name: Deploy photos to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          publish_branch: gh-pages
-          publish_dir: photos/public
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Build with Hugo
+      - name: Build blog with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
@@ -74,9 +67,11 @@ jobs:
         run: |
           hugo --destination public -s blog --gc --minify
 
-      - name: Deploy photos to GitHub Pages
+        cp ./blog/public ./photos/public
+
+      - name: Deploy blog to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_branch: gh-pages
-          publish_dir: blog/public
+          publish_dir: photos/public
           github_token: ${{ secrets.GITHUB_TOKEN }}
