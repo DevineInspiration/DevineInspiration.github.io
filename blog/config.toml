@@ -1,8 +1,9 @@
 baseURL = "https://devineinspiration.github.io/blog/"
 languageCode = "en-us"
 theme = "hyde"
-title = "My New Hugo Site"
+title = "Rachel's Blog"
 [params]
+description = "Welcome to my blog! Here, I will be posting about my different projects"
 disqusShortname = ""
 googleAnalytics = ""
 layoutReverse = false
