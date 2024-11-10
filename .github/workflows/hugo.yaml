@@ -65,9 +65,9 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo --destination public -s blog --gc --minify
+          hugo --destination public -s blog --gc --minify --baseURL "https://devineinspiration.github.io/blog/"
 
-          cp ./blog/public ./photos/public
+          cp -r ./blog/public ./photos/public
 
       - name: Deploy blog to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
