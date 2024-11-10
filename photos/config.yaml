@@ -33,7 +33,7 @@ params:
     - icon: 'fab fa-instagram fa-lg'
       url: 'https://www.instagram.com/kawaiimegumi/'
       landing: true
-  homepage: "/images" # homepage link, mostly same with menu.main[0]
+  homepage: "/images/" # homepage link, mostly same with menu.main[0]
   specialPages:
     - images
     - archive
