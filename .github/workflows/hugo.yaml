@@ -65,6 +65,6 @@ jobs:
       - name: Deploy photos to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          publish_branch: gh-pages
+          publish_branch: main
           publish_dir: photos/public/
           github_token: ${{ secrets.GITHUB_TOKEN }}
