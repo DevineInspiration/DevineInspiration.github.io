@@ -58,7 +58,6 @@ taxonomies:
 
 permalinks:
   images: ":filename/"
-  blog: "content/blog.html"
 
 menu:
   main:
