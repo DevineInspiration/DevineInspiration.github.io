@@ -1,6 +1,6 @@
 ---
-title: work
-url: work
+title: images
+url: images
 ---
 
 
