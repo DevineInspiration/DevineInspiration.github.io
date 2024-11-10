@@ -57,9 +57,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo -s photos -d photos/public/ \
-            --gc \
-            --minify \
+          hugo -s photos -d photos/public/ --gc --minify
 
       - name: Deploy photos to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
