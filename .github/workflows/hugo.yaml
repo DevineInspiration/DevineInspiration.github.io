@@ -69,6 +69,12 @@ jobs:
           publish_dir: photos/public/
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./public
+
+
   # Deployment job
   deploy:
     environment:
