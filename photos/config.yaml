@@ -57,7 +57,7 @@ taxonomies:
   tag: tags
 
 permalinks:
-  images: ":filename/"
+  work: ":filename/"
 
 menu:
   main:
