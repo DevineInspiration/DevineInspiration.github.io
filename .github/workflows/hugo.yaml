@@ -12,7 +12,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -65,6 +65,6 @@ jobs:
       - name: Deploy photos to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          publish_branch: main
+          publish_branch: gh-pages
           publish_dir: photos/public/
           github_token: ${{ secrets.GITHUB_TOKEN }}
