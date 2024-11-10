@@ -1,5 +1,5 @@
 ---
-title: images
+title: home
 url: images
 ---
 
