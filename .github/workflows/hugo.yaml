@@ -67,7 +67,7 @@ jobs:
         run: |
           hugo --destination public -s blog --gc --minify
 
-        cp ./blog/public ./photos/public
+          cp ./blog/public ./photos/public
 
       - name: Deploy blog to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
