@@ -19,9 +19,9 @@ One of the most popular deployment stacks is called LAMP. LAMP is an abbreviatio
 
 ***Key Terms-***
 
-LAMP has been a well known software set with mentions of the stack as a concept around the turn of the new millenia, and still today used by many large sites such as Wikipedia [1]. LAMP is credited as being a versatile, all in one solution, for hosting a web application, hence the continued popularity
+LAMP has been a well known software set with mentions of the stack as a concept around the turn of the new millennia, and still today used by many large sites such as Wikipedia [1]. LAMP is credited as being a versatile, all in one solution, for hosting a web application, hence the continued popularity
 
-Linux is an operating system, thought as one of the largest open source projects, means this operating system is one of the most versatile, with distributions building apon the code base, suited for many different types of deployments, wether it be a fully featured desktop operating system, a dedicated server or a low power embedded device, linux can be modified as needed 
+Linux is an operating system, thought as one of the largest open source projects, means this operating system is one of the most versatile, with distributions building apon the code base, suited for many different types of deployments, whether it be a fully featured desktop operating system, a dedicated server or a low power embedded device, linux can be modified as needed 
 
 Apache - Apache is an open source web server, designed to handle HTTP requests from a client’s web browser and serves the requested pages. Apache is one of the most popular web servers currently being used by 31.3% of known sites according to w3tech at the time of writing[2]. Due to the open source nature of apache, development is carried out by both the Apache Software Foundation and a community of developers who can implement new features and functions through the use of “modules”. This modularity is what makes Apache so powerful, with good performance on linux making these two pieces of software a good match.  
 
@@ -29,7 +29,7 @@ MariaDB - A community developed fork of the relational database system MySQL. Ma
 
 MySQL - A open source relational database system currently owned and developed by Oracle. The concept of the relational database was invented in 1970 by Edgar Frank Codd [3]. This concept allowed for large amounts of data to be collected in one entity, and with speed, insert, store and search the data through the use of complex relationships in the data defined at the time of entry
 
-PHP -  PHP is a server-side scripting language. which allows ver-side scripting language, PHP is used to allow a website's clients to induce an operation on the server hosting the website without having to run anything on their own device, for example requesting data from a database system to display on the page served back to the client. PHP was designed to be work in a large number of different applications, and can be easily implemented along side HTML/HTML5 code to allow for very powerful web applications is described in [4] 
+PHP -  PHP is a server-side scripting language. PHP is used to allow a website's clients to induce an operation on the server hosting the website without having to run anything on their own device, for example requesting data from a database system to display on the page served back to the client. PHP was designed to be work in a large number of different applications, and can be easily implemented along side HTML/HTML5 code to allow for very powerful web applications is described in [4] 
 
 
 
@@ -48,7 +48,7 @@ Initially, a new user is made on the operating system to help secure the machine
 
 ##### Figure 1: Setting password for new user
 
-![Figure 1](./image1.png "Figure 1: Setting password for new user")
+![Figure 1](./assets/lamp/image1.png "Figure 1: Setting password for new user")
 
 
 Next, this user must be given superuser privileges in order to make installations of new software and access necessary files/directories, after the user account is created, switch to the new user to begin the install process of the LAMP stack, this can be done with the commands below:
@@ -119,11 +119,7 @@ Change “SecRuleEngine” to “On” as seen in Figure 2
 ##### Figure 2: Modified Mod-Security Config
 
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
+![Figure 2](./image2.png "Figure 2: Modified Mod-Security Config")
 
 
 Next Install the MariaDB server and the MySQL PHP plugin to allow for PHP accessing of the database
@@ -139,10 +135,8 @@ Once the install has finished, check the service status using the command below,
 
 
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-![alt_text](images/image3.png "image_tooltip")
+![Figure 3](./image3.png "Figure 3: Running MariaDB server")
 
 
 Run the secure installation wizard to setup passwords, removing anonymous users,  disabling remote root login, etc
@@ -153,11 +147,7 @@ Run the secure installation wizard to setup passwords, removing anonymous users,
 ##### Figure 4: Completion of MySQL Secure Wizard
 
 
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
+![Figure 4](./image4.png "Completion of MySQL Secure Wizard")
 
 
 After this remote MySQL access was disabled by binding all connections to localhost preventing external connections to the database by doing the following:
@@ -209,10 +199,7 @@ The details created earlier should be entered into this config file as seen in F
 
 ##### Figure 5: Modified WordPress Config
 
-
-
-
-![alt_text](images/image5.png "image_tooltip")
+![Figure 5](./image5.png "Modified WordPress Config")
 
 
 In order to get Apache to serve the WordPress pages as intended, the document root must be modified to the newly copied WordPress folder, open the default page config using:
@@ -239,7 +226,7 @@ Check the rules are correct using the following command:
 ##### Figure 6: Enabled Firewall rules
 
 
-![alt_text](images/image6.png "image_tooltip")
+![Figure 6](images/image6.png "Figure 6: Enabled Firewall rules")
 
 
 After this, the WordPress wizard will be accessible by navigating to the server’s IP address as seen below:
@@ -250,7 +237,7 @@ After this, the WordPress wizard will be accessible by navigating to the server�
 
 
 
-![alt_text](images/image7.png "image_tooltip")
+![Figure 7](./image7.png " Figure 7: WordPress setup wizard")
 
 
 
@@ -266,10 +253,10 @@ In this deployment, Google Cloud Platform is used as the public cloud. While usi
 	    --zone=us-central1-a
 
 
-##### Figure 7: VM creation in Google Cloud Shell
+##### Figure 8: VM creation in Google Cloud Shell
 
 
-![alt_text](images/image8.png "image_tooltip")
+![Figure 8](./image8.png "Figure 8: VM creation in Google Cloud Shell")
 
 
 To begin the setup, use SSH to remote into the virtual machine using the command:
@@ -283,11 +270,11 @@ Another method of deploying a WordPress + LAMP stack is making use of Google Clo
 This method allows for a user of Google Cloud to extremely rapidly deploy a majority preconfigured WordPress including the same software stack as on the manual installation as seen below in the list of installed software in the image:
 
 
-##### Figure 8: Click to Deploy Software list
+##### Figure 9: Click to Deploy Software list
 
 
 
-![alt_text](images/image9.png "image_tooltip")
+![Figure 9](./image9.png "Figure 9: Click to Deploy Software list")
 
 
 However, after testing, other than the firewall settings, which are only accepting traffic on port 80 and 443, it seems that the rest of the security of the server is left at relatively out-the-box levels, looking at the apache modules
@@ -310,7 +297,7 @@ As I continued to research it was also discovered that using the mod-security mo
 
 
 
-    1. Wikipedia Technical Information. (2021). Retrieved 30 September 2021, from [https://en.wikipedia.org/wiki/Wikipedia:FAQ/Technical](https://en.wikipedia.org/wiki/Wikipedia:FAQ/Technical)
+   1. Wikipedia Technical Information. (2021). Retrieved 30 September 2021, from [https://en.wikipedia.org/wiki/Wikipedia:FAQ/Technical](https://en.wikipedia.org/wiki/Wikipedia:FAQ/Technical)
     2. *Usage Statistics and Market Share of Apache, November 2021. W3techs.com. (2021). Retrieved 2 November 2021, from [https://w3techs.com/technologies/details/ws-apache](https://w3techs.com/technologies/details/ws-apache).*
     3. *Karanjit, A. (2016). MEAN vs. LAMP Stack.*
     4. Emelianov, M. (2017). What makes LAMP stack important for your web projects. Open Source for You,
