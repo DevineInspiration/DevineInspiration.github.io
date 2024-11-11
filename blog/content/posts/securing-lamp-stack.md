@@ -51,7 +51,7 @@ serveruser
 <p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](assets/lamp/image1.png "Figure 1: Setting password for new user")
+![alt_text](/assets/lamp/image1.png "Figure 1: Setting password for new user")
 
 
 Next, this user must be given superuser privileges in order to make installations of new software and access necessary files/directories, after the user account is created, switch to the new user to begin the install process of the LAMP stack, this can be done with the commands below:
