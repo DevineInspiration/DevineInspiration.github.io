@@ -4,7 +4,7 @@
 passwd lamp
 
 serveruser
-</code></pre><h5 id=figure-1-setting-password-for-new-user>Figure 1: Setting password for new user</h5><p><img src=./assets/lamp/image1.png alt="Figure 1" title="Figure 1: Setting password for new user"></p><p>Next, this user must be given superuser privileges in order to make installations of new software and access necessary files/directories, after the user account is created, switch to the new user to begin the install process of the LAMP stack, this can be done with the commands below:</p><pre><code>sudo usermod -aG sudo lamp
+</code></pre><h5 id=figure-1-setting-password-for-new-user>Figure 1: Setting password for new user</h5><p><img src=./image1.png alt="Figure 1" title="Figure 1: Setting password for new user"></p><p>Next, this user must be given superuser privileges in order to make installations of new software and access necessary files/directories, after the user account is created, switch to the new user to begin the install process of the LAMP stack, this can be done with the commands below:</p><pre><code>sudo usermod -aG sudo lamp
 
 sudo su - lamp
 </code></pre><p>The first software package to install is the Apache web server, we will use apt-get command to pull the latest version of the server, before installing Apache, apt-get will also be updated to get the latest package lists, both commands are below:</p><pre><code>sudo apt-get update
