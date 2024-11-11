@@ -48,7 +48,7 @@ Initially, a new user is made on the operating system to help secure the machine
 
 ##### Figure 1: Setting password for new user
 
-![Figure 1](./assets/lamp/image1.png "Figure 1: Setting password for new user")
+![Figure 1](./image1.png "Figure 1: Setting password for new user")
 
 
 Next, this user must be given superuser privileges in order to make installations of new software and access necessary files/directories, after the user account is created, switch to the new user to begin the install process of the LAMP stack, this can be done with the commands below:
