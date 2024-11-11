@@ -11,8 +11,8 @@ In this report, deployment of a LAMP stack for use with WordPress is discussed, 
 
 
 
-1. 
-Introduction
+**<p style="text-align:center;">1. Introduction</p>**
+
 For many years now web developers have been looking for stable, secure and robust platforms for deploying their applications. Most modern web applications have four main parts in their deployment, An underlying operating system, a web server, a database system and a form of server side scripting functionality
 
 One of the most popular deployment stacks is called LAMP. LAMP is an abbreviation of the names of the 4 efficient open source technologies used. In this case, Linux is used as the operating system, Apache as the web server, MariaDB as the database system, and PHP as the server-side scripting language.
