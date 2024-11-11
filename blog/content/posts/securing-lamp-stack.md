@@ -11,7 +11,7 @@ In this report/tutorial, deployment of a LAMP stack for use with WordPress is di
 
 
 
-# 1. Introduction
+## 1. Introduction
 
 For many years now web developers have been looking for stable, secure and robust platforms for deploying their applications. Most modern web applications have four main parts in their deployment, An underlying operating system, a web server, a database system and a form of server side scripting functionality
 
@@ -33,7 +33,7 @@ PHP -  PHP is a server-side scripting language. PHP is used to allow a website's
 
 
 
-# 2. Local Machine Deployment
+## 2. Local Machine Deployment
 
 For the first example of a LAMP stack deployment, we will be using a Ubuntu 20.04 install running in a virtual machine with VMWare being used as the hypervisor.
 
@@ -46,9 +46,9 @@ Initially, a new user is made on the operating system to help secure the machine
 	serveruser
 
 
-##### Figure 1: Setting password for new user
+##### *Figure 1: Setting password for new user*
 
-![Figure 1](./assets/lamp/image1.png "Figure 1: Setting password for new user")
+![Figure 1](./image1.png "Figure 1: Setting password for new user")
 
 
 Next, this user must be given superuser privileges in order to make installations of new software and access necessary files/directories, after the user account is created, switch to the new user to begin the install process of the LAMP stack, this can be done with the commands below:
@@ -116,7 +116,7 @@ Next, the configuration file must be modified to enable and enforce the filterin
 Change “SecRuleEngine” to “On” as seen in Figure 2
 
 
-##### Figure 2: Modified Mod-Security Config
+##### *Figure 2: Modified Mod-Security Config*
 
 
 ![Figure 2](./image2.png "Figure 2: Modified Mod-Security Config")
@@ -131,7 +131,7 @@ Once the install has finished, check the service status using the command below,
 	sudo systemctl status mariadb
 
 
-##### Figure 3: Running MariaDB server
+##### *Figure 3: Running MariaDB server*
 
 
 
@@ -144,7 +144,7 @@ Run the secure installation wizard to setup passwords, removing anonymous users,
 	sudo mysql_secure_installation
 
 
-##### Figure 4: Completion of MySQL Secure Wizard
+##### *Figure 4: Completion of MySQL Secure Wizard*
 
 
 ![Figure 4](./image4.png "Completion of MySQL Secure Wizard")
@@ -197,7 +197,7 @@ To point WordPress to the MariaDB database we must first copy and modify the sam
 The details created earlier should be entered into this config file as seen in Figure 5
 
 
-##### Figure 5: Modified WordPress Config
+##### *Figure 5: Modified WordPress Config*
 
 ![Figure 5](./image5.png "Modified WordPress Config")
 
@@ -223,7 +223,7 @@ Check the rules are correct using the following command:
 	sudo ufw status
 
 
-##### Figure 6: Enabled Firewall rules
+##### *Figure 6: Enabled Firewall rules*
 
 
 ![Figure 6](images/image6.png "Figure 6: Enabled Firewall rules")
@@ -232,7 +232,7 @@ Check the rules are correct using the following command:
 After this, the WordPress wizard will be accessible by navigating to the server’s IP address as seen below:
 
 
-##### Figure 7: WordPress setup wizard
+##### *Figure 7: WordPress setup wizard*
 
 
 
@@ -242,7 +242,7 @@ After this, the WordPress wizard will be accessible by navigating to the server�
 
 
 
-# 3. Public Cloud Deployment
+## 3. Public Cloud Deployment
 
 In this deployment, Google Cloud Platform is used as the public cloud. While using Google Cloud there are two methods of deploying a WordPress + LAMP software stack, The first being creating a blank VM and using the same setup as the local machine deployment, with the extra step of having to provision hardware for the Linux VM to run on, in testing I set up the VM manually using this command in the Google Cloud Shell:
 
@@ -253,7 +253,7 @@ In this deployment, Google Cloud Platform is used as the public cloud. While usi
 	    --zone=us-central1-a
 
 
-##### Figure 8: VM creation in Google Cloud Shell
+##### *Figure 8: VM creation in Google Cloud Shell*
 
 
 ![Figure 8](./image8.png "Figure 8: VM creation in Google Cloud Shell")
@@ -270,7 +270,7 @@ Another method of deploying a WordPress + LAMP stack is making use of Google Clo
 This method allows for a user of Google Cloud to extremely rapidly deploy a majority preconfigured WordPress including the same software stack as on the manual installation as seen below in the list of installed software in the image:
 
 
-##### Figure 9: Click to Deploy Software list
+##### *Figure 9: Click to Deploy Software list*
 
 
 
@@ -290,7 +290,7 @@ To conclude, these methods are robust ways to setup and deploy a platform for a 
 
 Overall this report covers a significant amount on the configuration of such web application platforms, however more research could have been done on the alternatives on how to fully make use of the public cloud for this kind of deployment.
 
-As I continued to research it was also discovered that using the mod-security module for Apache allows for use of the “OWASP ModSecurity Core Rule Set'' which is a set of generic attack detection rules which mod-security can use to prevent more attacks, this rule set is based apon a largely contributed, open attack listing called the Open Web Application Security Project. This would prevent from even more advanced attacks
+As I continued to research, it was also discovered that using the mod-security module for Apache allows for use of the “OWASP ModSecurity Core Rule Set'' which is a set of generic attack detection rules which mod-security can use to prevent more attacks, this rule set is based upon a largely contributed, open attack listing called the Open Web Application Security Project. This would prevent from even more advanced attacks from infiltrating the webserver.
 
 
 ## References
