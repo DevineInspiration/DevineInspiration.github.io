@@ -5,7 +5,7 @@ date: 2021-07-28 10:38:00 +0000
 
 ---
 
-In this report, deployment of a LAMP stack for use with WordPress is discussed, each of the technologies used explained and steps to secure the deployment on both a local virtual machine and on a public cloud. A comparison will be made between both of these deployments
+In this report/tutorial, deployment of a LAMP stack for use with WordPress is discussed, each of the technologies used explained and steps to secure the deployment on both a local virtual machine and on a public cloud. A comparison will be made between both of these deployments
 
 ***Keywordsâ€”  LAMP, Ubuntu, GCP, Public Cloud Web Development Platform, WordPress Server Security;*** 
 
@@ -16,6 +16,8 @@ In this report, deployment of a LAMP stack for use with WordPress is discussed, 
 For many years now web developers have been looking for stable, secure and robust platforms for deploying their applications. Most modern web applications have four main parts in their deployment, An underlying operating system, a web server, a database system and a form of server side scripting functionality
 
 One of the most popular deployment stacks is called LAMP. LAMP is an abbreviation of the names of the 4 efficient open source technologies used. In this case, Linux is used as the operating system, Apache as the web server, MariaDB as the database system, and PHP as the server-side scripting language.
+
+***Key Terms-***
 
 LAMP has been a well known software set with mentions of the stack as a concept around the turn of the new millenia, and still today used by many large sites such as Wikipedia [1]. LAMP is credited as being a versatile, all in one solution, for hosting a web application, hence the continued popularity
 
@@ -46,7 +48,7 @@ Initially, a new user is made on the operating system to help secure the machine
 
 ##### Figure 1: Setting password for new user
 
-![Figure 1](assets/lamp/image1.png "Figure 1: Setting password for new user")
+![Figure 1](./assets/lamp/image1.png "Figure 1: Setting password for new user")
 
 
 Next, this user must be given superuser privileges in order to make installations of new software and access necessary files/directories, after the user account is created, switch to the new user to begin the install process of the LAMP stack, this can be done with the commands below:
@@ -209,8 +211,6 @@ The details created earlier should be entered into this config file as seen in F
 
 
 
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 
 ![alt_text](images/image5.png "image_tooltip")
 
@@ -239,10 +239,6 @@ Check the rules are correct using the following command:
 ##### Figure 6: Enabled Firewall rules
 
 
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/image6.png "image_tooltip")
 
 
@@ -252,8 +248,6 @@ After this, the WordPress wizard will be accessible by navigating to the serverâ
 ##### Figure 7: WordPress setup wizard
 
 
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image7.png "image_tooltip")
@@ -275,10 +269,6 @@ In this deployment, Google Cloud Platform is used as the public cloud. While usi
 ##### Figure 7: VM creation in Google Cloud Shell
 
 
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/image8.png "image_tooltip")
 
 
@@ -295,9 +285,6 @@ This method allows for a user of Google Cloud to extremely rapidly deploy a majo
 
 ##### Figure 8: Click to Deploy Software list
 
-
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image9.png "image_tooltip")
