@@ -37,11 +37,11 @@ For the first instance of LAMP stack deployments, we will be using an Ubuntu 20.
 
 Initially, a new user is made on the operating system to help secure the machine, preventing the server from running with root privileges, which could be extremely harmful if the server is compromised. This user is created with the name “lamp” and password “serveruser” using the commands below:
 
-sudo useradd -c "lamp" -m -s /bin/bash lamp
+	sudo useradd -c "lamp" -m -s /bin/bash lamp
 
-passwd lamp
+	passwd lamp
 
-serveruser
+	serveruser
 
 
 ##### Figure 1: Setting password for new user
