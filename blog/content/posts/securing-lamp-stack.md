@@ -7,7 +7,7 @@ date: 2021-07-28 10:38:00 +0000
 
 In this report/tutorial, deployment of a LAMP stack for use with WordPress is discussed, each of the technologies used explained and steps to secure the deployment on both a local virtual machine and on a public cloud. A comparison will be made between both of these deployments
 
-***Keywords—  LAMP, Ubuntu, GCP, Public Cloud Web Development Platform, WordPress Server Security;*** 
+*Keywords—  LAMP, Ubuntu, GCP, Public Cloud Web Development Platform, WordPress Server Security;* 
 
 
 
@@ -17,7 +17,7 @@ For many years now web developers have been looking for stable, secure and robus
 
 One of the most popular deployment stacks is called LAMP. LAMP is an abbreviation of the names of the 4 efficient open source technologies used. In this case, Linux is used as the operating system, Apache as the web server, MariaDB as the database system, and PHP as the server-side scripting language.
 
-***Key Terms-***
+*Key Terms-*
 
 LAMP has been a well known software set with mentions of the stack as a concept around the turn of the new millennia, and still today used by many large sites such as Wikipedia [1]. LAMP is credited as being a versatile, all in one solution, for hosting a web application, hence the continued popularity
 
@@ -298,6 +298,9 @@ As I continued to research, it was also discovered that using the mod-security m
 
 
    1. Wikipedia Technical Information. (2021). Retrieved 30 September 2021, from [https://en.wikipedia.org/wiki/Wikipedia:FAQ/Technical](https://en.wikipedia.org/wiki/Wikipedia:FAQ/Technical)
-    2. *Usage Statistics and Market Share of Apache, November 2021. W3techs.com. (2021). Retrieved 2 November 2021, from [https://w3techs.com/technologies/details/ws-apache](https://w3techs.com/technologies/details/ws-apache).*
-    3. *Karanjit, A. (2016). MEAN vs. LAMP Stack.*
+   
+    2. Usage Statistics and Market Share of Apache, November 2021. W3techs.com. (2021). Retrieved 2 November 2021, from [https://w3techs.com/technologies/details/ws-apache](https://w3techs.com/technologies/details/ws-apache).
+   
+    3. Karanjit, A. (2016). MEAN vs. LAMP Stack.
+    
     4. Emelianov, M. (2017). What makes LAMP stack important for your web projects. Open Source for You,
