@@ -9,7 +9,8 @@
 
     <nav>
       <ul class="sidebar-nav">
-        <li><a href="https://devineinspiration.github.io">Home</a> </li>
+        <li><a href="https://devineinspiration.github.io">Homepage</a> </li>
+	<li><a href="{{ .Site.BaseURL }}">Posts</a> </li>
         {{ range .Site.Menus.main -}}
           <li><a href="{{.URL}}"> {{ .Name }} </a></li>
         {{- end }}

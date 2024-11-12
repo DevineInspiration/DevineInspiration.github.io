@@ -170,8 +170,10 @@ To conclude, the configuration discussed, has plenty of safeguard to make sure t
 ## References
 
 
+<a name="reference-1">
+1. W3techs.com. 2021. Usage Statistics and Market Share of Apache, July 2021. [online] Available at: &lt;[https://w3techs.com/technologies/details/ws-apache](https://w3techs.com/technologies/details/ws-apache)>
+</a>
 
-    1.<a name="reference-1"></a> W3techs.com. 2021. Usage Statistics and Market Share of Apache, July 2021. [online] Available at: &lt;[https://w3techs.com/technologies/details/ws-apache](https://w3techs.com/technologies/details/ws-apache)>
     2. Wiki.centos.org. 2021. HowTos/SELinux - CentOS Wiki. [online] Available at: &lt;[https://wiki.centos.org/HowTos/SELinux](https://wiki.centos.org/HowTos/SELinux)>
     3. Wiki.centos.org. 2021. HowTos/SELinux - CentOS Wiki. [online] Available at: &lt;[https://wiki.centos.org/HowTos/SELinux#Relabeling_Files](https://wiki.centos.org/HowTos/SELinux%23Relabeling_Files)> 
     4. Httpd.apache.org. 2021. httpd - Apache Hypertext Transfer Protocol Server - Apache HTTP Server Version 2.4. [online] Available at: &lt;[https://httpd.apache.org/docs/2.4/programs/httpd.html](https://httpd.apache.org/docs/2.4/programs/httpd.html)  >
