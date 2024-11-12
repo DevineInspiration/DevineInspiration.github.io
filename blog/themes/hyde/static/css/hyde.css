@@ -59,12 +59,27 @@ html {
   color: rgba(255,255,255,.5);
   background-image: url("/background.jpeg");
   background-size: cover;
+.toc {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: rgba(255,255,255,.1);
 }
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
+  }
+}
+@media (min-width: 48em) {
+  .toc {
+    position: fixed;
+    top: 0;
+    left: auto;
+    right: 0;
     bottom: 0;
     width: 18rem;
     text-align: left;
@@ -114,7 +129,14 @@ a.sidebar-nav-item:focus {
     left:   1rem;
   }
 }
-
+@media (min-width: 48em) {
+  .toc-sticky {
+    position: absolute;
+    right:  1rem;
+    top: 1rem;
+    left:   1rem;
+  }
+}
 
 /* Container
  *
