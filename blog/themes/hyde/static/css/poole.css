@@ -420,9 +420,7 @@ a.pagination-item:hover {
 }
 
 .dark-mode-toggle {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    position: relative;
     width: 60px;
     height: 30px;
     background-color: #ccc;
@@ -466,4 +464,11 @@ input[type="checkbox"] {
 .toggle-darkmode-checkbox:checked ~ body {
 	colour: #aeaeae;
 	background-colour: #232323;
+}
+
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  font-family: "Arial";
+  font-size: 3.25rem;
 }
