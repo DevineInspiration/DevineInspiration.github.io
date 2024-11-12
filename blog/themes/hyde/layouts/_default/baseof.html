@@ -9,14 +9,14 @@
 
       	{{ if ne hugo.Environment "development"  }}
           {{ template "_internal/google_analytics.html" . }}
-      {{ else }}
-        <main class="content container">
-      	{{ block "main" . -}}{{- end }}
-      	</main>
+        {{ end }}
+    {{ else }}
+      <main class="content container">
+      {{ block "main" . -}}{{- end }}
+      </main>
 
-      	{{ if ne hugo.Environment "development"  }}
-          {{ template "_internal/google_analytics.html" . }}
+      {{ if ne hugo.Environment "development"  }}
+        {{ template "_internal/google_analytics.html" . }}
       {{ end }}
-    {{ end }}
   </body>
 </html>
