@@ -61,9 +61,10 @@ html {
   background-size: cover;
 }
 .toc {
+  display: none;
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255,255,255,.1);
+  color: rgb(0,0,0);
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -77,6 +78,7 @@ html {
 }
 @media (min-width: 48em) {
   .toc {
+    display: inherit;
     position: fixed;
     top: 0;
     left: auto;
@@ -134,7 +136,7 @@ a.sidebar-nav-item:focus {
   .toc-sticky {
     position: absolute;
     right:  1rem;
-    top: 1rem;
+    top: 10rem;
     left:   1rem;
   }
 }
