@@ -226,7 +226,7 @@ Check the rules are correct using the following command:
 ##### *Figure 6: Enabled Firewall rules*
 
 
-![Figure 6](images/image6.png "Figure 6: Enabled Firewall rules")
+![Figure 6](./image6.png "Figure 6: Enabled Firewall rules")
 
 
 After this, the WordPress wizard will be accessible by navigating to the server’s IP address as seen below:
