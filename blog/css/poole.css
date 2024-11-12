@@ -432,7 +432,7 @@ a.pagination-item:hover {
 }
 .toggle-darkmode-checkbox:checked + .darkmode-button {
 	background: #242424
-
+}
 .toggle-darkmode-checkbox:checked + .darkmode-button ~ h1,
 .toggle-darkmode-checkbox:checked + .darkmode-button ~ h2,
 .toggle-darkmode-checkbox:checked + .darkmode-button ~ h3,
