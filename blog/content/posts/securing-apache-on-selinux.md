@@ -170,8 +170,8 @@ To conclude, the configuration discussed, has plenty of safeguard to make sure t
 ## References
 
 
-<a name="reference-1">
-1. W3techs.com. 2021. Usage Statistics and Market Share of Apache, July 2021. [online] Available at: &lt;[https://w3techs.com/technologies/details/ws-apache](https://w3techs.com/technologies/details/ws-apache)>
+<a id="reference-1">
+1. W3techs.com. 2021. Usage Statistics and Market Share of Apache, July 2021. [online] Available at: [https://w3techs.com/technologies/details/ws-apache](https://w3techs.com/technologies/details/ws-apache)
 </a>
 
     2. Wiki.centos.org. 2021. HowTos/SELinux - CentOS Wiki. [online] Available at: &lt;[https://wiki.centos.org/HowTos/SELinux](https://wiki.centos.org/HowTos/SELinux)>

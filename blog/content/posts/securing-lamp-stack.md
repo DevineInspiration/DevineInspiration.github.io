@@ -297,10 +297,10 @@ As I continued to research, it was also discovered that using the mod-security m
 
 
 
-   1. Wikipedia Technical Information. (2021). Retrieved 30 September 2021, from [https://en.wikipedia.org/wiki/Wikipedia:FAQ/Technical](https://en.wikipedia.org/wiki/Wikipedia:FAQ/Technical)
+1. Wikipedia Technical Information. (2021). Retrieved 30 September 2021, from [https://en.wikipedia.org/wiki/Wikipedia:FAQ/Technical](https://en.wikipedia.org/wiki/Wikipedia:FAQ/Technical)
    
-    2. Usage Statistics and Market Share of Apache, November 2021. W3techs.com. (2021). Retrieved 2 November 2021, from [https://w3techs.com/technologies/details/ws-apache](https://w3techs.com/technologies/details/ws-apache).
+2. Usage Statistics and Market Share of Apache, November 2021. W3techs.com. (2021). Retrieved 2 November 2021, from [https://w3techs.com/technologies/details/ws-apache](https://w3techs.com/technologies/details/ws-apache).
    
-    3. Karanjit, A. (2016). MEAN vs. LAMP Stack.
+3. Karanjit, A. (2016). MEAN vs. LAMP Stack.
     
-    4. Emelianov, M. (2017). What makes LAMP stack important for your web projects. Open Source for You,
+4. Emelianov, M. (2017). What makes LAMP stack important for your web projects. Open Source for You,
