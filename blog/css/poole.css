@@ -109,11 +109,11 @@ h4, h5, h6 {
   font-size: 1rem;
 }
 
-body.light-mode h1, body.light-mode h2 {
+body.light-mode h1, body.light-mode h2, body.light-mode a {
     color: #313131;
 }
 
-body.dark-mode h1, body.dark-mode h2 {
+body.dark-mode h1, body.dark-mode h2, body.dark-mode a {
     color: #e0e0e0; 
 }
 
@@ -327,6 +327,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
+  colour: #303030;
 }
 
 .post-title.light-mode a {
@@ -472,11 +473,4 @@ input[type="checkbox"] {
 .toggle-darkmode-checkbox:checked ~ body {
 	colour: #aeaeae;
 	background-colour: #232323;
-}
-
-.title {
-  color: #fff !important;
-  margin-top: 0;
-  font-family: "Arial";
-  font-size: 3.25rem;
 }
