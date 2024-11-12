@@ -169,13 +169,14 @@ To conclude, the configuration discussed, has plenty of safeguard to make sure t
 
 ## References
 
-
-<a id="reference-1">
 1. W3techs.com. 2021. Usage Statistics and Market Share of Apache, July 2021. [online] Available at: [https://w3techs.com/technologies/details/ws-apache](https://w3techs.com/technologies/details/ws-apache)
-</a>
 
-    2. Wiki.centos.org. 2021. HowTos/SELinux - CentOS Wiki. [online] Available at: &lt;[https://wiki.centos.org/HowTos/SELinux](https://wiki.centos.org/HowTos/SELinux)>
-    3. Wiki.centos.org. 2021. HowTos/SELinux - CentOS Wiki. [online] Available at: &lt;[https://wiki.centos.org/HowTos/SELinux#Relabeling_Files](https://wiki.centos.org/HowTos/SELinux%23Relabeling_Files)> 
-    4. Httpd.apache.org. 2021. httpd - Apache Hypertext Transfer Protocol Server - Apache HTTP Server Version 2.4. [online] Available at: &lt;[https://httpd.apache.org/docs/2.4/programs/httpd.html](https://httpd.apache.org/docs/2.4/programs/httpd.html)  >
-    5. DigitalOcean. 2021. How To Set Up a Firewall Using FirewallD on CentOS 7 | DigitalOcean. [online] Available at: &lt;[https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-using-firewalld-on-centos-7](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-using-firewalld-on-centos-7)> 
-    6. Lists.fedoraproject.org. 2021. How to set SELinux to allow apache-httpd only to access a particular user's content. [online] Available at: &lt;[https://lists.fedoraproject.org/pipermail/users/2011-April/395403.html](https://lists.fedoraproject.org/pipermail/users/2011-April/395403.html)>
+2. Wiki.centos.org. 2021. HowTos/SELinux - CentOS Wiki. [online] Available at: &lt;[https://wiki.centos.org/HowTos/SELinux](https://wiki.centos.org/HowTos/SELinux)>
+
+3. Wiki.centos.org. 2021. HowTos/SELinux - CentOS Wiki. [online] Available at: &lt;[https://wiki.centos.org/HowTos/SELinux#Relabeling_Files](https://wiki.centos.org/HowTos/SELinux%23Relabeling_Files)> 
+
+4. Httpd.apache.org. 2021. httpd - Apache Hypertext Transfer Protocol Server - Apache HTTP Server Version 2.4. [online] Available at: &lt;[https://httpd.apache.org/docs/2.4/programs/httpd.html](https://httpd.apache.org/docs/2.4/programs/httpd.html)  >
+
+5. DigitalOcean. 2021. How To Set Up a Firewall Using FirewallD on CentOS 7 | DigitalOcean. [online] Available at: &lt;[https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-using-firewalld-on-centos-7](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-using-firewalld-on-centos-7)> 
+
+6. Lists.fedoraproject.org. 2021. How to set SELinux to allow apache-httpd only to access a particular user's content. [online] Available at: &lt;[https://lists.fedoraproject.org/pipermail/users/2011-April/395403.html](https://lists.fedoraproject.org/pipermail/users/2011-April/395403.html)>

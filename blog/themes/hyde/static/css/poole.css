@@ -48,7 +48,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -79,8 +79,8 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
-  font-weight: bold;
+  margin-bottom: .75rem;
+  font-weight: 500;
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
