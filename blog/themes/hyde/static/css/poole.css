@@ -59,11 +59,19 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
           text-size-adjust: 100%;
+}
+
+body.light-mode {
+    background-color: #fff;
+    color: #515151;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
@@ -82,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .75rem;
   font-weight: 500;
   line-height: 1.25;
-  color: #313131;
+  transition: color 0.3s ease;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -99,6 +107,14 @@ h3 {
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
+}
+
+body.light-mode h1, body.light-mode h2 {
+    color: #313131;
+}
+
+body.dark-mode h1, body.dark-mode h2 {
+    color: #e0e0e0; 
 }
 
 /* Body text */
@@ -403,36 +419,40 @@ a.pagination-item:hover {
   }
 }
 
-.darkmode-button {
-	width: 40px;
-        height: 20px;
-	position: relative;
-	display: block;
-	background: #ebebeb;
-	border-radius: 200px;
-	box-shadow: inset 0px 2px 4px rgba(0,0,0,0.4), inset 0px -2px 4px rgba(255,255,255,0.4);
-	cursor: pointer;
+.dark-mode-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.darkmode-button:after {
-	content: ";
-	width: 19px;
-	height 19px;
-	position: absolute;
-	top: 1px;
-	left: 1px;
-	background: linear-gradient(180deg,#ffcc89,#d8860b);
-	border-radius: 9px;
-	box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+.dark-mode-toggle .toggle-circle {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
 }
 
-.toggle-darkmode-checkbox {
-	width: 0;
-	height: 0;
-	visibility: hidden;
+input[type="checkbox"]:checked + .dark-mode-toggle {
+    background-color: #333;
 }
-.toggle-darkmode-checkbox:checked + .darkmode-button {
-	background: #242424
+
+input[type="checkbox"]:checked + .dark-mode-toggle .toggle-circle {
+    transform: translateX(30px);
+}
+
+input[type="checkbox"] {
+    display: none;
 }
 
 .toggle-darkmode-checkbox:checked ~ h1,
@@ -446,14 +466,4 @@ a.pagination-item:hover {
 .toggle-darkmode-checkbox:checked ~ body {
 	colour: #aeaeae;
 	background-colour: #232323;
-}
-
-.toggle-darkmode-checkbox:checked + .darkmode-button:after {
-	left:19px;
-	transform: translate(-100%);
-	background: linear-gradient(180deg, #777, #3a3a3a);
-}
-
-.darkmode-button, .darkmode-button:after {
-	transition: 0.3s
 }
