@@ -402,3 +402,14 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+darkmode {
+	width: 30px;
+        height: 10px;
+	position: relative;
+	display: block;
+	background: #ebebeb;
+	border-radius: 200px;
+	box-shadow: inset 0px 1px 2px rgba(0,0,0,0.4), inset 0px -1px 2px rgba(255,255,255,0.4);
+	cursor: pointer;
+}
