@@ -12,7 +12,7 @@ In this report, the importance of the security of a webserver is discussed on mo
 
 
 ## 1. Introduction
-Apache is one of the most popular web servers currently being used across the internet, with 32.2% of all outward-facing web servers being hosted using Apache [[1](#heading=h.gjdgxs)]. As this server is so popular there is a large pressure to find new security exploits which may be used maliciously. 
+Apache is one of the most popular web servers currently being used across the internet, with 32.2% of all outward-facing web servers being hosted using Apache [[1](#reference-1)]. As this server is so popular there is a large pressure to find new security exploits which may be used maliciously. 
 
 Making sure there are appropriate security measures is important when hosting websites, especially sites that will be handling user/company data, by tightening the security of the webserver you are reducing the risk of data breaches, where data is either stolen, modified, or deleted. The server could also be hijacked, and be used for other malicious purposes, for example modifying the pages served by the server to contain viruses or log user inputs. All these outcomes could end up being a breach of GDPR regulations which could then cause monetary losses for the entity responsible for hosting the server if legal action is taken. 
 
@@ -171,7 +171,7 @@ To conclude, the configuration discussed, has plenty of safeguard to make sure t
 
 
 
-    1. W3techs.com. 2021. Usage Statistics and Market Share of Apache, July 2021. [online] Available at: &lt;[https://w3techs.com/technologies/details/ws-apache](https://w3techs.com/technologies/details/ws-apache)>
+    1.<a name="reference-1"></a> W3techs.com. 2021. Usage Statistics and Market Share of Apache, July 2021. [online] Available at: &lt;[https://w3techs.com/technologies/details/ws-apache](https://w3techs.com/technologies/details/ws-apache)>
     2. Wiki.centos.org. 2021. HowTos/SELinux - CentOS Wiki. [online] Available at: &lt;[https://wiki.centos.org/HowTos/SELinux](https://wiki.centos.org/HowTos/SELinux)>
     3. Wiki.centos.org. 2021. HowTos/SELinux - CentOS Wiki. [online] Available at: &lt;[https://wiki.centos.org/HowTos/SELinux#Relabeling_Files](https://wiki.centos.org/HowTos/SELinux%23Relabeling_Files)> 
     4. Httpd.apache.org. 2021. httpd - Apache Hypertext Transfer Protocol Server - Apache HTTP Server Version 2.4. [online] Available at: &lt;[https://httpd.apache.org/docs/2.4/programs/httpd.html](https://httpd.apache.org/docs/2.4/programs/httpd.html)  >
