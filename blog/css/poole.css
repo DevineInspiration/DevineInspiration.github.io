@@ -329,16 +329,13 @@ tbody tr:nth-child(odd) th {
 .post-title a {
 }
 
-body.post-title.light-mode a {
+.post-title.light-mode a {
     color: #303030;
 }
 
-body.post-title.light-mode a {
+.post-title.light-mode a {
     color: #e0e0e0; 
 }
-
-
-
 
 .page-title,
 .post-title {
