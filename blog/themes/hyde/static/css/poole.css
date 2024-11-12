@@ -425,6 +425,7 @@ a.pagination-item:hover {
 	border-radius: 9px;
 	box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
 }
+
 .toggle-darkmode-checkbox {
 	width: 0;
 	height: 0;
@@ -433,15 +434,16 @@ a.pagination-item:hover {
 .toggle-darkmode-checkbox:checked + .darkmode-button {
 	background: #242424
 }
-.toggle-darkmode-checkbox:checked + .darkmode-button ~ h1,
-.toggle-darkmode-checkbox:checked + .darkmode-button ~ h2,
-.toggle-darkmode-checkbox:checked + .darkmode-button ~ h3,
-.toggle-darkmode-checkbox:checked + .darkmode-button ~ h4,
-.toggle-darkmode-checkbox:checked + .darkmode-button ~ h5,
-.toggle-darkmode-checkbox:checked + .darkmode-button ~ h6 {
+
+.toggle-darkmode-checkbox:checked ~ h1,
+.toggle-darkmode-checkbox:checked ~ h2,
+.toggle-darkmode-checkbox:checked ~ h3,
+.toggle-darkmode-checkbox:checked ~ h4,
+.toggle-darkmode-checkbox:checked ~ h5,
+.toggle-darkmode-checkbox:checked ~ h6 {
 	colour: #cecece;
 }
-.toggle-darkmode-checkbox:checked + .darkmode-button ~ body {
+.toggle-darkmode-checkbox:checked ~ body {
 	colour: #aeaeae;
 	background-colour: #232323;
 }
