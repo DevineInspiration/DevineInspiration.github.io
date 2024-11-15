@@ -6,9 +6,9 @@ date: 2021-05-15 15:15:00 +0000
 ---
 
 
-In this paper, an investigation will be carried out to discover how different factors affect the energy consumption of a wireless sensor network. Three different MAC communication protocols (SMAC, TMAC and ZigBee) will be tested, with the effects of increased node density and sample rate on power consumption being monitored for analysis. The simulated network will be tested with two different radio hardware models (Texas Instruments CC1000 and CC2420) using the Castelia simulator within the OMNETPP Software Platform**
+In this paper, an investigation will be carried out to discover how different factors affect the energy consumption of a wireless sensor network. Three different MAC communication protocols (SMAC, TMAC and ZigBee) will be tested, with the effects of increased node density and sample rate on power consumption being monitored for analysis. The simulated network will be tested with two different radio hardware models (Texas Instruments CC1000 and CC2420) using the Castelia simulator within the OMNETPP Software Platform
 
-***Keywords— WSN; Low Power Sensor Networks; SMAC; TMAC; ZigBee; OMNETPP; Castelia; Wireless Connectivity; Ad-Hoc Networks; Energy Efficiency Testing ***
+Keywords— WSN; Low Power Sensor Networks; SMAC; TMAC; ZigBee; OMNETPP; Castelia; Wireless Connectivity; Ad-Hoc Networks; Energy Efficiency Testing
 
 
 
