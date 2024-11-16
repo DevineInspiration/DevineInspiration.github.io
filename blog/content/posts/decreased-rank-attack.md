@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Routing Protocol Attacks in IoT Networks
-date: 2022-02-22 10:38:00 +0000
+date: 2021-07-28 10:38:00 +0000
 
 ---
 
-# Chapter 1: Testing Decreased Rank Attacks on IoT Networks
+## Chapter 1: Testing Decreased Rank Attacks on IoT Networks
 
  
 
@@ -28,52 +28,16 @@ Decreased Rank Attack – In an RPL network an attacker may advertise a false ra
 Default Cooja parameters are used in this report unless stated otherwise. Each of the simulations will be carried out with the specifications seen in Table 1
 
  
+|Parameter|Value|
+|--|--|
+|Number of Nodes|21 (1 Sink included)|
+|Simulation Time|10 minutes|
+|Transmission Range|30 meters|
+|Interference Range|35 meters|
+|Data Rate|1 packet per minute|
+|Attack Delay|After 3 DIO messages|
 
 
-<table>
-  <tr>
-   <td>Parameter
-   </td>
-   <td>Value
-   </td>
-  </tr>
-  <tr>
-   <td>Number of Nodes
-   </td>
-   <td>21 (1 sink included)
-   </td>
-  </tr>
-  <tr>
-   <td>Simulation Time
-   </td>
-   <td>10 minutes
-   </td>
-  </tr>
-  <tr>
-   <td>Transmission Range
-   </td>
-   <td>30 metres
-   </td>
-  </tr>
-  <tr>
-   <td>Interference Range
-   </td>
-   <td>35 metres
-   </td>
-  </tr>
-  <tr>
-   <td>Data Rate
-   </td>
-   <td>1 packet per minute
-   </td>
-  </tr>
-  <tr>
-   <td>Attack Delay
-   </td>
-   <td>Attack after 3 DIO messages
-   </td>
-  </tr>
-</table>
 
 
 *Table 1: General Simulation Specifications*
@@ -83,71 +47,13 @@ Default Cooja parameters are used in this report unless stated otherwise. Each o
 The IoT network will consist of 1 sink node and 20 remote nodes in differing topologies, linked to each simulated scenario as described in Table 2.
 
  
-
-
-<table>
-  <tr>
-   <td>Scenario No.
-   </td>
-   <td>Attacker Node Rank
-   </td>
-   <td>Attacker Node Mobility
-   </td>
-   <td>Attacker Node Location
-   </td>
-  </tr>
-  <tr>
-   <td>Scenario 1
-   </td>
-   <td>No Attack
-   </td>
-   <td>None
-   </td>
-   <td>Natural Position (Figure 1)
-   </td>
-  </tr>
-  <tr>
-   <td>Scenario 2
-   </td>
-   <td>0
-   </td>
-   <td>None
-   </td>
-   <td>Attack Position 1 (Figure 2)
-   </td>
-  </tr>
-  <tr>
-   <td>Scenario 3
-   </td>
-   <td>257
-   </td>
-   <td>None
-   </td>
-   <td>Attack Position 1 (Figure 2)
-   </td>
-  </tr>
-  <tr>
-   <td>Scenario 4
-   </td>
-   <td>257
-   </td>
-   <td>None
-   </td>
-   <td>Attack Position 2 (Figure 3)
-   </td>
-  </tr>
-  <tr>
-   <td>Scenario 5
-   </td>
-   <td>257
-   </td>
-   <td>Yes
-   </td>
-   <td>Mobile (as defined by positions.dat)
-   </td>
-  </tr>
-</table>
-
+|Scenario No.|Attacker Node Rank|Attacker Node Mobility|Attacker Node Location| 
+|--|--|--|--|
+|Scenario 1|No Attack|None|Natural Position (Figure 1)|
+|Scenario 2|0|None|Attack Position (Figure 1)|
+|Scenario 3|257|None|Attack Position (Figure 1)|
+|Scenario 4|257|None|Attack Position (Figure 2)|
+|Scenario 5|257|Yes|--|
 
 *Table 2: Simulation Scenario Specifications*
 
@@ -357,11 +263,11 @@ The two highest nodes in terms of energy consumption in this scenario were Node 
 
 For Scenario 5 mobility is introduced for the attacker node, which will allow it to have an effect on a wider range of nodes throughout the network. In order to make use of Mobility in the simulator, the mobility plugin for Cooja was downloaded and extracted into:
 
-* contiki/tools/cooja/apps/*
+	contiki/tools/cooja/apps/
 
 The plugin jar was built using ant build tool inside the mobility plugin folder:
 
-*ant jar*
+	ant jar
 
 To enable the plugin in Cooja, open The “Settings” drop-down in the simulator and open the “External tools paths” settings menu, as shown in Figure 13:
 
@@ -371,7 +277,7 @@ To enable the plugin in Cooja, open The “Settings” drop-down in the simulato
 
 The plugin is then added to the DEFAULT_PROJECTDIRS field to link the plugin to the Cooja simulator like so:
 
-*; [CONTIKI_DIR]/tools/cooja/apps/mobility*
+	[CONTIKI_DIR]/tools/cooja/apps/mobility
 
  
 
@@ -482,30 +388,10 @@ The RPL standard states three different modes of operation for securing routing 
 VeRA – Version Number and Rank Authentication or VeRA was described initially in 2011 by Dvir et al. [11] as a method verifying the version number and rank of a node by creating a hash chain of the rank stemming from the sink. This allows for a method of proving if a rank is invalid or not as the rank of nodes lower in the tree systemically must be lower than that of its parent. This logic means that it is impossible for an attacker to employ a decreased rank attack unless they prevent the full propagation of the new version number throughout the network. Once the version number increase has been attempted twice, an attacker can use this information to figure out the random number used in the hash chain. This allows the attacker to display a valid decreased rank to initiate the attack.
 
  
-
-
-<table>
-  <tr>
-   <td>Pros
-   </td>
-   <td>Cons
-   </td>
-  </tr>
-  <tr>
-   <td>Allows for an extremely simple and robust method of proving a node’s rank in the network.
-   </td>
-   <td>VeRA can be exploited and surpassed, if the attacker acquires enough information to calculate the root rank hash.
-   </td>
-  </tr>
-  <tr>
-   <td>VeRA also provides a method of protecting against version number attacks using the same hash.
-   </td>
-   <td>Depending on the maximum rank value set, the hash calculation can be resource intensive.
-   </td>
-  </tr>
-</table>
-
-
+|Pros|Cons|
+|--|--|
+|Allows for an extremely simple and robust method of proving a node’s rank in the network.|VeRA can be exploited and surpassed, if the attacker acquires enough information to calculate the root rank hash.|
+|VeRA also provides a method of protecting against version number attacks using the same hash.|Depending on the maximum rank value set, the hash calculation can be resource intensive.|
  
 
 *Figure 1: Features of utilising VeRA for Rank Attack Mitigation*
@@ -516,31 +402,11 @@ VeRA – Version Number and Rank Authentication or VeRA was described initially 
  SVELTE – The security concept named after a word describing something is streamlined and clean was first described in 2013 by Tolsma, P. et al [3] as an Intrusion Detection System (IDS) developed for use in 6LoWPAN. This IDS is based on 2 fundamental methods and a mini firewall system. SVETLE is proposed as using both the signature based and anomaly-based IDS methods [4] to accurately detect attacks on the network. SVELTE utilises a locally stored table of each of the routes of the network on the sink node, this information includes the advertised rank of the nodes. This information is then used to generate a topology graph of the children. The signature-based method looks for known behaviours of an attacking node [7], such as a node changing rank without changing in proximity to the sink node. This makes SVELTE very suitable as a mitigation method for Decreased Rank Attacks. The anomaly-based method is mainly utilised in detecting attacker behaviour not defined in the signature-based IDS method, such as attacks from outside of the IoT network from public network acting as a “mini-firewall”.
 
  
+|Pros|Cons|
+|--|--|
+|SVELTE can be updated with new and updated attack definitions, which allows for the best security against newer attack vectors.|Due to SVELTE’s dependency of the root node of a network having a wholistic image of the network and all its nodes, a large amount of traffic is generated throughout the network during initial discovery|
+|SVELTE also protects the network from the public domain, which may open of the possibility of a secured WAN connected IoT network|SVELTE is only defined as an intrusion detection system, so it may detect a decreased rank attack but does not have its own method of isolating the attacker|
 
-
-<table>
-  <tr>
-   <td>Pros
-   </td>
-   <td>Cons
-   </td>
-  </tr>
-  <tr>
-   <td>SVELTE can be updated with new and updated attack definitions, which allows for the best security against newer attack vectors.
-   </td>
-   <td>Due to SVELTE’s dependency of the root node of a network having a wholistic image of the network and all its nodes, a large amount of traffic is generated throughout the network during initial discovery
-   </td>
-  </tr>
-  <tr>
-   <td>SVELTE also protects the network from the public domain, which may open of the possibility of a secured WAN connected IoT network
-   </td>
-   <td>SVELTE is only defined as an intrusion detection system, so it may detect a decreased rank attack but does not have its own method of isolating the attacker
-   </td>
-  </tr>
-</table>
-
-
- 
 
 
 ## Conclusion
