@@ -7,7 +7,7 @@ date: 2021-07-28 10:38:00 +0000
 
 In this report, the importance of the security of a webserver is discussed on modern deployments, as part of this, implementations demonstrating ways of securing a Apache webserver hosted on CentOS are shown with suitable explanation
 
-*Keywords—  Apache, SELinux, Web Hosting, Webserver, Server Security, CentOS; *
+Keywords—  Apache, SELinux, Web Hosting, Webserver, Server Security, CentOS;
 
 
 
