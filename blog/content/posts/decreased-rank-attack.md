@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Routing Protocol Attacks in IoT Networks
-date: 2021-07-28 10:38:00 +0000
+date: 2022-12-02 10:38:00 +0000
 
 ---
 
@@ -411,9 +411,7 @@ VeRA – Version Number and Rank Authentication or VeRA was described initially 
 
 ## Conclusion
 
- 
-
- 
+While there are many more mitigation methods other than the ones discussed in this report, it remains that there is no one best choice, and it depends on each network environment, use case and scale which mitigation which suits best. This is why constant research of new contributions to network security is always important. 
 
 
 ## References
