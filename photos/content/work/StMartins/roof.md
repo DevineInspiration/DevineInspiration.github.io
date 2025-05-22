@@ -2,6 +2,7 @@
 weight: 5
 images:
 - /architecture/DSC_0158.jpg
+- /architecture/DSC_0051.jpg
 title: Ribs of a Seminary
 date: 2025-05-09
 tags:
