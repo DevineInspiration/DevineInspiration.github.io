@@ -12,4 +12,4 @@ tags:
 - water
 ---
 
-Sunset over the waters of Nuottaniemi, outside Helsinki, Taken on Nikon D5100
+Sunset over the waters of Helsinki, from Uutela, Taken on Nikon D5100
