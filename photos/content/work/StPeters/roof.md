@@ -12,4 +12,4 @@ tags:
 - edinburgh
 ---
 
-The remaining structural concrete making up the roof of the abandoned St. Martins Seminary, Scotland. Shot on Nikon D5100
+The remaining structural concrete making up the roof of the abandoned St. Peters Seminary, Scotland. Shot on Nikon D5100

@@ -12,4 +12,4 @@ tags:
 - edinburgh
 ---
 
-Looking over the hills through the abandoned remains of St. Martins Seminary, Scotland. Shot on Nikon D5100
+Looking over the hills through the abandoned remains of St. Peters Seminary, Scotland. Shot on Nikon D5100
