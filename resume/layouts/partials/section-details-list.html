@@ -1,0 +1,53 @@
+{{- $collection := index .Data (.Feature.collection | default "features") -}}
+{{- $items := index $collection .Feature.feature -}}
+{{- if $items -}}
+{{ range $items }}
+<article class="item">
+	<h3 class="item-title">
+		{{ $useFontAwesome := $.Params.itemTitle.useFontAwesome | default $.Params.useFontAwesome }}
+		{{ $noExternalIcon := not ($.Params.itemTitle.externalLinkIcon | default $.Params.externalLinkIcon) }}
+		{{ $titleText := or .title "Untitled Item" }}
+
+		{{- if .link -}}
+			{{- if $useFontAwesome -}}
+			<i class="fas fa-link"></i> <a class="no-external-icon" href="{{ .link }}">{{ $titleText }}</a>
+			{{- else -}}
+			<a class="{{ if $noExternalIcon }}no-external-icon{{ end }}" href="{{ .link }}">{{ $titleText }}</a>
+			{{- end -}}
+		{{- else -}}
+		{{ $titleText }}
+		{{- end -}}
+	</h3>
+	<span>{{ if and .subtitle .date }}
+		{{- .subtitle | markdownify }} - {{ .date }}
+	{{- else if .subtitle }}
+		{{- .subtitle | markdownify }}
+	{{- else if .date }}
+		{{- .date }}
+	{{- end }}</span>
+	{{ if .details }}
+		{{- partial "markdown" .details }}
+	{{- end }}
+	{{ if .links }}
+	<ul>
+		{{- range .links }}
+		<li>
+			{{- .prefix -}}
+			{{- if and .url .title -}}
+			<a href="{{ .url }}" class="{{ if and $.Params.useFontAwesome .icon }}no-external-icon{{ end }}">{{ .title }}{{ if and $.Params.useFontAwesome .icon }}<i class="{{ .icon }}"></i>{{ end }}</a>
+			{{- else if .title -}}
+			{{ .title }}
+			{{- else -}}
+			Invalid link
+			{{- end -}}
+		</li>
+		{{- end -}}
+	</ul>
+	{{ end }}
+</article>
+{{ end }}
+{{- else -}}
+<div class="item">
+	<p class="error">No data found for {{ .Feature.feature }} section.</p>
+</div>
+{{- end -}}

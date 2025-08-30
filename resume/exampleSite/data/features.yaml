@@ -1,0 +1,92 @@
+about:
+  name: Jane Smith
+  tagline: Senior Software Engineer
+  phone: "+1 (555) 123-4567"        # Optional
+  email: jane.smith@email.com       # Optional
+  linkedin: jane-smith              # Optional
+  links:
+    # Add any link as you like.
+    - title: /in/jane-smith
+      url: https://linkedin.com/in/jane-smith
+      icon: fab fa-linkedin
+    - title: jane-smith
+      url: https://github.com/jane-smith
+      icon: fab fa-github
+    - title: Portfolio
+      url: https://janesmith.dev
+      icon: fas fa-globe
+  details: |
+    Experienced software engineer with 8+ years developing scalable web applications and cloud infrastructure.
+    Passionate about clean code, system architecture, and mentoring junior developers.
+
+    Proven track record of leading cross-functional teams and delivering high-impact solutions.
+
+
+skills:
+  - groupName: Frontend Technologies
+    list:
+      - React - Vue.js - Angular
+      - TypeScript - JavaScript - HTML5/CSS3
+
+  - groupName: Backend & Infrastructure
+    list:
+      - Node.js - Python - Java
+      - AWS - Docker - Kubernetes
+      - PostgreSQL - MongoDB - Redis
+
+  - groupName: Tools & Practices
+    list:
+      - Git - CI/CD - Terraform
+      - Jest - Cypress - Jenkins
+
+interests:
+  - Open Source Contributions
+  - Cloud Architecture
+  - Machine Learning
+  - Tech Mentoring
+
+languages:
+  - name: English
+    level: Native
+
+  - name: Spanish
+    level: Conversational
+    certificates:
+      - "DELE B2 - 2020"
+
+  - name: French
+    level: Basic
+
+# This will use the default widget: "details-list"
+awards:
+  - title: "Excellence in Software Development"
+    date: "2023"
+    subtitle: "TechCorp Innovation Awards"
+    details: |
+      Recognized for outstanding contribution to company-wide code quality initiatives
+      and successful migration of legacy systems to cloud architecture.
+    links:
+      - title: Award Details
+        url: https://example.com/awards/2023
+        icon: fas fa-trophy
+        prefix: "View "
+      - title: Press Release
+        url: https://example.com/news/innovation-awards
+        icon: fas fa-newspaper
+        prefix: "Read "
+
+certificates:
+  - title: "AWS Solutions Architect Professional"
+    subtitle: Amazon Web Services
+    date: "2023"
+    link: https://aws.amazon.com/certification/ # This link will be on title level.
+
+  - title: "Certified Kubernetes Administrator"
+    subtitle: Cloud Native Computing Foundation
+    date: "2022"
+    link: https://www.cncf.io/certification/cka/
+
+  - title: "Google Cloud Professional Developer"
+    subtitle: Google Cloud Platform
+    date: "2021"
+    link: https://cloud.google.com/certification/

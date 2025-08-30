@@ -1,0 +1,36 @@
+projects:
+- title: "E-Commerce Platform with Microservices"
+  subtitle: "Personal Project"
+  date: "2023"
+  details: |
+    Full-stack e-commerce application built with React, Node.js, and PostgreSQL.
+    Implemented user authentication, payment processing, and order management.
+    Deployed using Docker containers on AWS ECS with load balancing.
+
+- title: "Real-time Chat Application"
+  subtitle: "Open Source Project"
+  link: "https://github.com/jane-smith/chat-app"
+  date: "2022"
+  details: |
+    WebSocket-based chat application supporting real-time messaging and file sharing.
+    Built with Socket.io, Express.js, and MongoDB. Includes user authentication and message history.
+  links:
+  - title: View on GitHub
+    url: https://github.com/jane-smith/chat-app
+    icon: fab fa-github
+  - title: Live Demo
+    url: https://chat-demo.janesmith.dev
+    icon: fas fa-external-link-alt
+
+- title: "Task Management API"
+  subtitle: "REST API with GraphQL"
+  link: "https://github.com/jane-smith/task-api"
+  date: "2021"
+  details: |
+    RESTful API with GraphQL endpoint for task management system.
+    Features JWT authentication, role-based permissions, and automated testing.
+    Deployed on Heroku with PostgreSQL database.
+  links:
+  - title: API Documentation
+    url: https://task-api-docs.janesmith.dev
+    icon: fas fa-book

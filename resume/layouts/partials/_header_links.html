@@ -1,0 +1,43 @@
+{{ with .Data.features.about }}
+    {{ $sep := $.Separator | default "<br>" }}
+    {{- if $.Header.contact -}}
+        {{- $items := slice -}}
+        {{- with .phone }}
+            {{ $phone := printf `<a href="tel:%s" class="no-external-icon">%s</a>` . . | safeHTML }}
+            {{- if $.useFontAwesome }}{{ $phone = printf `<i class="fas fa-tty"></i> %s` $phone | safeHTML }}{{ end }}
+            {{- $items = $items | append $phone -}}
+        {{- end }}
+        {{- with .email }}
+            {{ $email := printf `<a href="mailto:%s" class="no-external-icon">%s</a>` . . | safeHTML }}
+            {{- if $.useFontAwesome }}{{ $email = printf `<i class="fas fa-envelope"></i> %s` $email | safeHTML }}{{ end }}
+            {{- $items = $items | append $email -}}
+        {{- end }}
+        {{- with .linkedin }}
+            {{ $linkedin := printf `<a href="https://linkedin.com/in/%s" class="no-external-icon">%s</a>` . . | safeHTML }}
+            {{- if $.useFontAwesome }}{{ $linkedin = printf `<i class="fab fa-linkedin"></i> %s` $linkedin | safeHTML }}{{ end }}
+            {{- $items = $items | append $linkedin -}}
+        {{- end }}
+
+        <span class="contact">
+            {{- range $index, $el := $items -}}
+                {{- if gt $index 0 }}{{ $sep | safeHTML }}{{ end -}}
+                {{- $el -}}
+            {{- end -}}
+        </span>
+
+    {{- end -}}
+
+    {{- if $.Header.links -}}
+        <span class="contact-links">
+            {{- $last := sub (len .links) 1 -}}
+            {{- range $i, $e := .links -}}
+            <a href="{{ $e.url }}" class="no-external-icon">
+                {{- if and $e.icon $.useFontAwesome }}<i class="{{ $e.icon }}"></i> {{ end -}}
+                {{- $e.title -}}
+            </a>
+            {{- if ne $i $last }}  {{- $sep | safeHTML -}} {{ end -}}
+            {{- end -}}
+        </span>
+    {{- end -}}
+
+{{- end -}}

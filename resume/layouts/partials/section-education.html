@@ -1,0 +1,60 @@
+
+{{ range .Data.education }}
+<div class="item">
+	{{- if $.Params.education.namePrimary -}}
+		<h2 class="item-title">{{ .name }}</h2>
+		{{- if and $.Params.education.location.show .location -}}
+			{{ if $.isOnSide }}
+			<span>{{ .university }}, {{ .location }}</span></br>
+			{{- else -}}
+			<div class="flex-row">
+				<span>{{ .university }}</span>
+				<span class="soft-color">{{ .location }}</span></br>
+			</div>	
+			{{- end -}}
+		{{- else -}}
+			<span>{{ .university }}</span></br>
+		{{- end -}}
+
+	{{- else -}}
+
+		{{- if and $.Params.education.location.show .location -}}
+		{{ if $.isOnSide }}
+		<h2 class="item-title">{{ .university }}</h2>
+		<span>{{ .location }}</span><br>
+		{{- else -}}
+		<div class="flex-row">
+			<h2 class="item-title">{{ .university }}</h2>
+			<span class="soft-color">{{ .location }}</span>
+		</div>	
+		{{- end -}}
+		{{- else -}}
+		<h2 class="item-title">{{ .university }}</h2>
+
+		{{- end -}}
+		
+		<span>{{ .name }}</span><br>
+	{{- end -}}
+	
+	{{ $useFontAwesome := $.Params.education.useFontAwesome | default $.Params.useFontAwesome }}
+	{{ $noExternalIcon := not ($.Params.education.externalLinkIcon | default $.Params.externalLinkIcon) }}
+
+	<span>{{ .date }}{{ if .gpa }} | GPA: {{ .gpa }}{{ end }}</span>
+	{{- if .more -}}
+		{{- if .link -}}
+			{{- if $useFontAwesome -}}
+			<br><span><a class="no-external-icon" href="{{ .link }}">{{ .more }}</a></span>
+			<i class="fas fa-link"></i><br>
+			{{- else -}}
+			<span><a class="{{ if $noExternalIcon }}no-external-icon{{ end }}" href="{{ .link }}">{{ .more }}</a></span><br>
+			{{- end -}}
+		{{- else -}}
+		<span>{{ .more }}</span>
+		{{- end -}}
+	{{- end -}}
+	
+	{{ if .details }}
+		{{- partial "markdown" .details }}
+	{{ end }}
+</div>
+{{ end }}
