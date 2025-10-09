@@ -7,6 +7,7 @@ date: 2024-11-05 01:35:00 +0000
 
 In this report/tutorial, An Open-source decentralised image storage service will be configured, using a reverse proxy, free tier cloud servers and a ultra-low power storage device (RPi 2B). This setup splits the workload of the compute across the different hardware avaliable and allows for acceptable application performance while FAR below the recommended minimum hardware specfication for the hosting application, Immich.
 
+## Reverse Proxy Setup
 
 **On Remote Oracle Free tier server**
 
@@ -87,6 +88,8 @@ The remote server will show the following message when the client connects succe
 
 ![image9](./image7.png)
 
+## Secure file system setup
+
 Next install sshfs 
 
 	sudo apt install sshfs
@@ -117,6 +120,8 @@ If you are having trouble using sshfs, you can show debug output using environme
 
 	sshfs \-odebug,sshfs\_debug,loglevel=debug \[^^ rest of command\]
 
+## Install Docker
+
 Next install docker
 
 Remove all previous installed docker versions (clean start optional)
@@ -129,7 +134,7 @@ To install docker and its plugins use
 
 If apt is not able to find docker you may have to add docker to your repository, to do so, read the official docker page here:
 
- 
+## Install Immich
 
 Next install immich
 
@@ -153,6 +158,8 @@ Open the .env file with a text editor
 Make sure to change the upload location to the remote server mount point you created earlier and set your database password to something private.
 
 Next open the docker-compose.yml in a text editor
+
+## Low Hardware Accommodations
 
 To minimise memory usage if needed we can prevent machine learning process from running at the expense of some features by commenting out it's declaration like so:
 
