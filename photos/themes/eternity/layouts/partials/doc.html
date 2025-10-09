@@ -1,5 +1,5 @@
 {{ $includesInfo := false }}
-{{ if or (and (gt (len $imgs) 1) (not .ctx.Params.multipleColumn)) (gt (len .ctx.Content) 0) }}
+{{ if or (and (not .ctx.Params.multipleColumn)) (gt (len .ctx.Content) 0) }}
 	{{ $includesInfo = true }}
 {{ end }}
 <div class="slide" {{ if $includesInfo }} info="true" {{ end }} path="{{ $.ctx.Page.RelPermalink }}">
