@@ -1,9 +1,8 @@
 about:
-  name: Jane Smith
+  name: Rachel Devine
   tagline: Senior Software Engineer
-  phone: "+1 (555) 123-4567"        # Optional
-  email: jane.smith@email.com       # Optional
-  linkedin: jane-smith              # Optional
+  email: cattodevine144@gmail.com       # Optional
+  linkedin: r-devine              # Optional
   links:
     # Add any link as you like.
     - title: /in/jane-smith
