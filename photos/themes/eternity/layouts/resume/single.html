@@ -1,16 +1,24 @@
 {{ partial "header.html" . }}
 
 {{ partial "navbar.html" . }}
-<body>
-    <section class="hero is-fullheight">
-        <div class="hero-body">
-			<div id="app">
-			  <iframe
-				src="https://drive.google.com/file/d/{{ .Get 0 }}/preview"
-				width="60%"
-				height="80%">
-			  </iframe>
+
+<section class="section">
+	<div class="center">
+		<div class="slide-info">
+			<div class="content {{ if not $.disableFullheight }} margin-bottom-50 {{ end }}">
+				{{ if .ctx.Site.Params.MoveIt }}
+					{{ if not .ctx.Params.hideTitle }}
+						<div class="text-center">
+							<a class="a-clean" href="{{ .ctx.Page.RelPermalink }}">
+								<h1>{{ .ctx.Title }}</h1>
+							</a>
+						</div>
+					{{ end }}
+				{{ end }}
+				{{ .ctx.Content }}
 			</div>
-        </div>
-    </section>
+		</div>
+	</div>
+</section>
+
 {{ partial "footer.html" . }}
