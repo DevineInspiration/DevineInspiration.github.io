@@ -61,13 +61,13 @@ Next create a mount point for the partition, if there is not one already
 
 For example:
 
-sudo mount /dev/sda1 /media/sandisk
+	sudo mount /dev/sda1 /media/sandisk
 
 Next install frp
 
 Open the frp client config file
 
-nano frpc.toml
+	nano frpc.toml
 
 ![image7](./image12.png)
 
@@ -101,31 +101,31 @@ Set up a mount point for the remote folder to be mounted to:
 
 For example:
 
-mkdir /mnt/data2
+	mkdir /mnt/data2
 
 next connect to the local storage server with the following command:
 
-sshfs \-oport=\[frp remoteport\] pi@127.0.0.1:\[local disk mount point\] \[remote server mount point\]
+	sshfs \-oport=\[frp remoteport\] pi@127.0.0.1:\[local disk mount point\] \[remote server mount point\]
 
-For example
+For example:
 
-sshfs \-oport=6000 pi@127.0.0.1:/media/sandisk /mnt/data2
+	sshfs \-oport=6000 pi@127.0.0.1:/media/sandisk /mnt/data2
 
 NOTE: don't run as su or mount point will be inaccessible by non su
 
 If you are having trouble using sshfs, you can show debug output using environment variables like so:
 
-sshfs \-odebug,sshfs\_debug,loglevel=debug \[^^ rest of command\]
+	sshfs \-odebug,sshfs\_debug,loglevel=debug \[^^ rest of command\]
 
 Next install docker
 
 Remove all previous installed docker versions (clean start optional)
 
-for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+	for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 
 To install docker and its plugins use
 
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+	sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 If apt is not able to find docker you may have to add docker to your repository, to do so, read the official docker page here:
 
@@ -135,14 +135,14 @@ Next install immich
 
 Create and enter a directory for immich to use
 
-mkdir ./immich-app  
-cd ./immich-app
+	mkdir ./immich-app  
+	cd ./immich-app
 
 Next pull the required files docker will use to build the immich instance
 
-wget \-O docker-compose.yml https://github.com/immich-app/immich/releases/latest/download/docker-compose.yml
+	wget \-O docker-compose.yml https://github.com/immich-app/immich/releases/latest/download/docker-compose.yml
 
-wget \-O .env https://github.com/immich-app/immich/releases/latest/download/example.env
+	wget \-O .env https://github.com/immich-app/immich/releases/latest/download/example.env
 
 Make sure this file is saved with the name “.env”
 
@@ -168,27 +168,27 @@ Again under the “database” process add the limit parameters as required
 
 If you are running Immich with 1GB of ram or less (far below minimum recommended) swap file usage is required for stable operation. To create a swap file 
 
-sudo dd if=/dev/zero of=/swapfile bs=1MB count=1024
+	sudo dd if=/dev/zero of=/swapfile bs=1MB count=1024
 
 Next protect the file by setting the file permissions to read and write access for root only
 
-sudo chmod 600 /swapfile
+	sudo chmod 600 /swapfile
 
 Then format the new swap file using the following command:
 
-sudo mkswap /swapfile
+	sudo mkswap /swapfile
 
 Enable the use of a swap file using command:
 
-sudo swapon /swapfile
+	sudo swapon /swapfile
 
 Next download the latest immich version using 
 
-sudo docker compose pull
+	sudo docker compose pull
 
 And start the server using 
 
-sudo docker compose up
+	sudo docker compose up
 
 
 
