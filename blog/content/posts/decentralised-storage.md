@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Decentralised image storage hosted within Secured LAN
+title: Decentralised Image Storage hosted within Secured LAN
 date: 2024-11-05 01:35:00 +0000
 
 ---
