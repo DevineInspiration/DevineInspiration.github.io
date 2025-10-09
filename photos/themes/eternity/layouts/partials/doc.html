@@ -1,0 +1,24 @@
+{{ $includesInfo := false }}
+{{ if or (and (gt (len $imgs) 1) (not .ctx.Params.multipleColumn)) (gt (len .ctx.Content) 0) }}
+	{{ $includesInfo = true }}
+{{ end }}
+<div class="slide" {{ if $includesInfo }} info="true" {{ end }} path="{{ $.ctx.Page.RelPermalink }}">
+	<div>
+		<div class="center">
+			<div class="slide-info">
+				<div class="content {{ if not $.disableFullheight }} margin-bottom-50 {{ end }}">
+					{{ if .ctx.Site.Params.MoveIt }}
+						{{ if not .ctx.Params.hideTitle }}
+							<div class="text-center">
+								<a class="a-clean" href="{{ .ctx.Page.RelPermalink }}">
+									<h1>{{ .ctx.Title }}</h1>
+								</a>
+							</div>
+						{{ end }}
+					{{ end }}
+					{{ .ctx.Content }}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
