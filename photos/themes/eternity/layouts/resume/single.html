@@ -6,15 +6,11 @@
 	<div class="center">
 		<div class="slide-info">
 			<div class="content">
-				{{ if .ctx.Site.Params.MoveIt }}
-					{{ if not .ctx.Params.hideTitle }}
-						<div class="text-center">
-							<a class="a-clean" href="{{ .ctx.Page.RelPermalink }}">
-								<h1>{{ .ctx.Title }}</h1>
-							</a>
-						</div>
-					{{ end }}
-				{{ end }}
+					<div class="text-center">
+						<a class="a-clean" href="{{ .ctx.Page.RelPermalink }}">
+							<h1>{{ .ctx.Title }}</h1>
+						</a>
+					</div>
 				{{ .ctx.Content }}
 			</div>
 		</div>
